@@ -51,6 +51,11 @@ span.onclick = function() {
    $('#displayMessage').fadeOut('fast').addClass('hide');
 
 }
+
+h1.onclick = function() {
+  console.log('this is wokring');
+  window.location.href = 'index.html';
+}
 /* used code from https://webapps.stackexchange.com/questions/25246/can-pins-on-a-google-map-link-to-other-websites
 */
 function initMap() {
