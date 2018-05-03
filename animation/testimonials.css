@@ -1,0 +1,29 @@
+.navbar-dark .navbar-nav .nav-link {
+	color:white;
+}
+
+nav {
+	z-index: 60;
+	color:white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #5d72a9;
+}
+
+body {
+	background-color:white;
+	font-family: 'Open Sans', sans-serif;
+	color:black;
+}
+
+
+h1 {
+	padding:5%;
+}
+.content {
+	display:block;
+	position:relative;
+	margin:15%;
+}
+

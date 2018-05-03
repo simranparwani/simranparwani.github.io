@@ -1,0 +1,18 @@
+body {
+  color:black;
+  margin-top:10%;
+  font-family:'Open Sans', sans-serif;
+}
+
+.changeColor:hover {
+    color: white;
+    background-color: gray;
+    
+}
+
+.changeColor {
+    color: white;
+    background-color: #5d72a9;
+    border:none;
+    
+}
