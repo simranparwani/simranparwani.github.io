@@ -89,10 +89,23 @@ nav {
 	color: #5d72a9;
 }
 
-.video {
-	margin:15%;
-}
+
 
 .content {
 	top:20%;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom:56.9%; /* 16:9 */
+	height: 0;
+	text-align:center;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top:15%;
+	left:10%;
+	width: 80%;
+	height: 80%;
+	text-align:center;
 }
