@@ -35,15 +35,15 @@
       }
   }
 
-
+//originally just made 2 images and was going to use a hide class but it was easier to just change the src to determine whether mute/unmute. however, then i needed to make a flag to show whether vol was on or off.
 function Mute() {
   if (volume=='on') {
   song.volume = 0;
-  mute.src="img/unmute.png"
+  mute.src="img/mute.png"
   volume = 'off'
 } else {
   song.volume = 1;
-  mute.src = "img/mute.png"
+  mute.src = "img/unmute.png"
   volume='on';
 }
 
