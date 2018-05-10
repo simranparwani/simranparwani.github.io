@@ -1,6 +1,8 @@
 #gif {
 	position:relative;
 	bottom:0;
+	width:30%;
+	height:auto;
 
 }
 
@@ -9,6 +11,8 @@
     transform: scaleX(-1);
 	position:relative;
 	margin-left:10%;
+	width:30%;
+	height:auto;
 
 
 }
@@ -18,6 +22,8 @@
 	-webkit-transform: scaleY(-1);
     transform: scaleY(-1);
     left:0;
+    width:30%;
+    height:auto;
 
 
 	
@@ -25,7 +31,7 @@
 
 p {
 	z-index: 50;
-	margin:0% 20% 0% 20%;
+	margin:0% 20% 10% 20%;
 	position: relative;
 	font-family:'Muli', sans-serif;
 	font-size:2vw;
@@ -65,3 +71,13 @@ html {
 	margin-right:3%;
 	margin-top:2%;
 }
+
+#mute {
+	cursor:pointer;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	#gif3 {
+		display:none;
+	}
