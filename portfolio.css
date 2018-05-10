@@ -1,0 +1,79 @@
+.navbar .navbar-nav {
+    display: inline-block;
+
+}
+
+
+ul {
+	width:80%;
+	height:auto;
+	margin-left:10%;
+	margin-right:10%;
+	text-align:center;
+}
+
+li {
+	display:inline;
+	text-align:center;
+	margin:3%;
+	font-size:2vw;
+
+}
+
+nav {
+	margin-left:20%;
+	margin-right:20%;
+	color:black;
+}
+
+.text {
+	font-family:'Muli', sans-serif;
+}
+
+h1 {
+	font-size:4vw;
+	padding-top:3%;
+	padding-bottom:3%;
+
+}
+
+a {
+	color:black;
+	overflow:hidden;
+}
+
+a:hover {
+	text-decoration-color: #dd4e47;
+	text-decoration-style: double;
+	color:black;
+}
+
+.ctrImage {
+
+    width: 80%;
+    margin-right: 13%;
+    margin-left: 10%;
+}
+
+.hide {
+	display:none;
+}
+
+.controls {
+	max-width:3%;
+	height:auto;
+	float:right;
+	margin-right:3%;
+	margin-top:2%;
+}
+
+#unmute, #mute {
+	cursor:pointer;
+}
+
+.linkSpace {
+	margin-right:20%;
+	text-align:center;
+	margin-left:20%;
+
+}
