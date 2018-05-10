@@ -15,7 +15,16 @@
       function frame() {
           if (pos >= window.innerWidth) {
               pos= 0;
-              location.reload();
+
+              // when planes move off screen they start again. at first i reloaded the page, but that messed up the audio. so i reset the src of the gifs to start them over.
+              $('#gif').attr('src', '');
+              $('#gif2').attr('src', '');
+              $('#gif3').attr('src', '');
+              $('#gif').attr('src', 'img/planereal.gif');
+              $('#gif2').attr('src', 'img/planereal.gif');
+              $('#gif3').attr('src', 'img/planereal.gif');
+
+
          } else {
               
          

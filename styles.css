@@ -57,3 +57,11 @@ html {
 	padding:0;
 	margin:0 auto;
 }
+
+.controls {
+	max-width:3%;
+	height:auto;
+	float:right;
+	margin-right:3%;
+	margin-top:2%;
+}
