@@ -281,7 +281,7 @@ function generateObjects() {
 }		
 
 
-if (millis() - rewardTimer >= 1500) {
+if (millis() - rewardTimer >= 2500) {
     makeReward();
     rewardTimer = millis();
 
