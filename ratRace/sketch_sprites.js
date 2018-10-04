@@ -59,7 +59,7 @@ checkEdges();
 
 
 
-
+console.log(mouseX,mouseY);
 player.collide(walls);
 player.collide(others);
 checkRewardCollision();
@@ -197,20 +197,18 @@ function checkEdges() {
 
 //creating a square class and a flower class would be much more efficient
 function Flower() {
-this.flowerX = random(10, width-10);
-this.flowerY = random(player.position.y,player.position.y+200);
+this.flowerX = random(10,390);
+this.flowerY = random(250,400);
+
 for (var i =0; i < walls.length; i++){
 	var flowerDistance = mag(this.flowerY, walls[i].position.y);
 	//makes sure flowers don't hit the walls
 	if (flowerDistance > 100) {
-		this.flowerX = random(10, width-10);
-this.flowerY = random(player.position.y,player.position.y+200);
+		this.flowerX = random(10, 390);
+this.flowerY = random(250,400);
 }
 }
-if (this.flowerY < 10 || this.flowerY> gameHeight-100) {
-	this.flowerY = random(player.position.y,player.position.y+200);
 
-}
 	
 
 
