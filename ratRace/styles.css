@@ -1,0 +1,28 @@
+
+
+body{
+	background-color:orange;
+	font-family:'Muli', sans-serif;
+	text-align:center;
+	color:white;
+
+	height:100%;
+	width:100%;
+	padding:0;
+	margin:0 auto;
+
+
+}
+a {
+	text-decoration: none;
+	color:white;
+}
+
+a:hover {
+	color:blue;
+	font-size:2vw;
+}
+
+h1{
+	font-size:3vw;
+}
