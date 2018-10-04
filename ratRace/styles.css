@@ -1,4 +1,9 @@
+html{
+	height:100%;
+	width:100%;
+	margin: 0 auto;
 
+}
 
 body{
 	background-color:orange;
@@ -6,23 +11,34 @@ body{
 	text-align:center;
 	color:white;
 
-	height:100%;
-	width:100%;
-	padding:0;
-	margin:0 auto;
+	padding:20%;
+
+
 
 
 }
 a {
 	text-decoration: none;
-	color:white;
+	color:orange;
+	font-size:1.5vw;
 }
 
-a:hover {
-	color:blue;
-	font-size:2vw;
+
+button {
+	border-radius: 8px;
+	color:orange;
+	
 }
 
 h1{
 	font-size:3vw;
+}
+
+h2 {
+	font-size:1.5vw;
+}
+
+.text {
+
+
 }

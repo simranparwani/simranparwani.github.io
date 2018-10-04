@@ -235,7 +235,7 @@ rect(this.flowerX + 6, this.flowerY + 5, 4,4);
 
 function makeReward() {
 //defined y coord such that it would always be above the player whereas the flowers are always behind the player
-var newReward = createSprite(random(10, width-10), random(player.position.y-100, player.position.y) , 7,20);
+var newReward = createSprite(random(10, width-10), random(player.position.y-100, player.position.y) , 7,10);
 //kept trying rotate(PI/5) which didn't work but apparently rotation is a built in attribute for p5.play
 newReward.rotation = 10;
 	newReward.shapeColor = color(60,179,113);
