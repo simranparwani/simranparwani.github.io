@@ -193,8 +193,11 @@ function checkEdges() {
 //creating a square class and a flower class would be much more efficient
 function Flower() {
 this.flowerX = random(10,390);
-this.flowerY = random(250,400);
-
+if (player.position.y > gameHeight -80) {
+	this.flowerY = random(gameHeight-180,gameHeight-80);
+} else {
+this.flowerY = random(player.position.y,player.position.y+200);
+}
 for (var i =0; i < walls.length; i++){
 	var flowerDistance = mag(this.flowerY, walls[i].position.y);
 	//makes sure flowers don't hit the walls but this method doesn't seem to work 
@@ -235,7 +238,7 @@ var newReward = createSprite(random(10, width-10), random(player.position.y-100,
 newReward.rotation = 10;
 	newReward.shapeColor = color(60,179,113);
 	rewards.add(newReward);
-	if (newReward.overlap(walls) || newReward.overlap(others) || newReward.position.x>gameWidth-10 || newReward.position.x < 10 || newReward.position.y < 10 || newReward.position.y > gameHeight-60){
+	if (newReward.overlap(walls) || newReward.overlap(others){
 	newReward.remove(); //random reassignment of position didn't seem to work so just removed the sprite entirely adjusting the timer
 
 }
