@@ -241,7 +241,7 @@ newReward.rotation = 10;
 	if (newReward.overlap(walls) || newReward.overlap(others)){
 	newReward.remove(); //random reassignment of position didn't seem to work so just removed the sprite entirely adjusting the timer
 
-}
+	}
 }
 
 
