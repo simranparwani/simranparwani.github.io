@@ -238,7 +238,7 @@ var newReward = createSprite(random(10, width-10), random(player.position.y-100,
 newReward.rotation = 10;
 	newReward.shapeColor = color(60,179,113);
 	rewards.add(newReward);
-	if (newReward.overlap(walls) || newReward.overlap(others){
+	if (newReward.overlap(walls) || newReward.overlap(others)){
 	newReward.remove(); //random reassignment of position didn't seem to work so just removed the sprite entirely adjusting the timer
 
 }
