@@ -20,8 +20,8 @@ var YPosObs = [-2000,-3500,-5000,-6300,-7600,-8900,-10000,-11100,-12200,-13200,-
 // -60000,-60200,-60400,-60600,-60800,-61000,-61200,-61400,-61600,-61800,-62000,-62200,-62400,-62600,-62800,-62000,-62200,-62400,-62600,-62800,-63000,-63200,-63400,-63600,-63800,-64000,-64200,-64400,-64600,-64800,-65000,-65100,-65200,-65300,-65400,-65500,-65600,-65700,-65800,-65900,-66000,-66100,-66200,-66300,-66400,-66500,-66600,-66700,-66800,-66900,-67000,-67100,-67200,-67300,-67400,-67500,-67600,-67700,-67800,-67900,-68000,-68100,-68200,-68300,-68400,-68500,-68600,-68700,-68800,-68900,-69000,-69100,-69200,-69300,-69400,-69500,-69600,-69700,-69800,-69900,-70000]
 
 function preload() {
-	negative=loadSound('negative.mp3');
-	positive=loadSound('positive.mp3');
+	// negative=loadSound('negative.mp3');
+	// positive=loadSound('positive.mp3');
 }
 function setup() {
 	createCanvas(windowWidth-200, windowHeight-200);
@@ -217,7 +217,7 @@ sprite.shapeColor= color(random(255),random(255),random(255));
 if (count < 300){
 count += 1;
 }
-positive.play();
+// positive.play();
 }
 
 function createObstacles() {
@@ -234,7 +234,7 @@ function collisionObs() {
 	if (count > 0){
 		count -=1;
 }
-negative.play();
+// negative.play();
 }
 
 function deleteItems() {
