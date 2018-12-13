@@ -20,7 +20,6 @@ var YPosObs = [-2000,-3500,-5000,-6300,-7600,-8900,-10000,-11100,-12200,-13200,-
 // -60000,-60200,-60400,-60600,-60800,-61000,-61200,-61400,-61600,-61800,-62000,-62200,-62400,-62600,-62800,-62000,-62200,-62400,-62600,-62800,-63000,-63200,-63400,-63600,-63800,-64000,-64200,-64400,-64600,-64800,-65000,-65100,-65200,-65300,-65400,-65500,-65600,-65700,-65800,-65900,-66000,-66100,-66200,-66300,-66400,-66500,-66600,-66700,-66800,-66900,-67000,-67100,-67200,-67300,-67400,-67500,-67600,-67700,-67800,-67900,-68000,-68100,-68200,-68300,-68400,-68500,-68600,-68700,-68800,-68900,-69000,-69100,-69200,-69300,-69400,-69500,-69600,-69700,-69800,-69900,-70000]
 
 function preload() {
-	soundtrack= loadSound('soundtrack.mp3');
 	negative=loadSound('negative.mp3');
 	positive=loadSound('positive.mp3');
 }
@@ -36,7 +35,7 @@ function setup() {
 	inside.shapeColor = color(112);
 	inside.visible = false;
 	startScreen();
-	drawSliders();
+	// drawSliders();
 createFriends();
 createObstacles();
 
@@ -49,7 +48,6 @@ function draw() {
 	drawSprite(inside);
 	if (gameState==='play'){
 		loadGame();
-		soundtrack.loop();
 	}
 	player.overlap(friends,socialize);
 	player.collide(obstacles, collisionObs);
@@ -98,14 +96,14 @@ rect(windowWidth-370,player.position.y-150,150,20);
 
 fill(231,121,12);
 rect(windowWidth-370,player.position.y-150,count * .5,20);
-speedSlider.position(windowWidth-265,200);
-goalLabel = createElement('p', 'Goal:');
+// speedSlider.position(windowWidth-265,200);
+goalLabel = createElement('p', goal);
 goalLabel.position((windowWidth-250), 352);
-  speedLabel = createElement('p', 'Speed:');
-  speedLabel.position((windowWidth-250), 162);
+  // speedLabel = createElement('p', 'Speed:');
+  // speedLabel.position((windowWidth-250), 162);
   goalLabel.style("color", 'white').style("font-family",'Verdana');
-  speedLabel.style("color", 'white').style("font-family",'Verdana');
-	speed = speedSlider.value();
+ //  speedLabel.style("color", 'white').style("font-family",'Verdana');
+	// speed = speedSlider.value();
 
 checkEdges();
 camera.position.y = player.position.y -200;
@@ -168,6 +166,15 @@ if (keyIsDown(RIGHT_ARROW)) {
    if (keyIsDown(LEFT_ARROW)) {
     player.position.x -= speed;
   }  
+  if (keyIsDown(UP_ARROW)) {
+  	if (speed < 20){
+    speed +=1;
+} if (keyIsDown(DOWN_ARROW)) {
+    if (speed > 1){
+    speed -=1;
+}
+  }  
+  }  
 }
 
 
@@ -197,13 +204,13 @@ for (var i = -800; i > -64000; i -= 500) {
 }
 }
 
-function drawSliders() {
-	// goalSlider = createSlider(0,10,10,1);
-	// goalSlider.position(windowWidth, 0);
+// function drawSliders() {
+// 	// goalSlider = createSlider(0,10,10,1);
+// 	// goalSlider.position(windowWidth, 0);
 
-	speedSlider = createSlider(0,20,5,1);
-	speedSlider.position(windowWidth, 0);
-}
+// 	speedSlider = createSlider(0,20,5,1);
+// 	speedSlider.position(windowWidth, 0);
+// }
 
 function socialize(sprite) {
 sprite.shapeColor= color(random(255),random(255),random(255));
