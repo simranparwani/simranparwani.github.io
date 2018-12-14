@@ -57,9 +57,7 @@ createObstacles();
 }
 
 function draw() {
-	background(bgColor);
-	drawSprite(player);
-	drawSprite(inside);
+
 	if (gameState==="start"){
 		startScreen();
 	}
@@ -86,6 +84,7 @@ function playGame() {
 
 
 function startScreen() {
+		background(bgColor);
 
 fill(123)
 textSize(64)
@@ -100,6 +99,9 @@ button.mousePressed(playGame);
 
 
 function loadGame(){
+		background(bgColor);
+	drawSprite(player);
+	drawSprite(inside);
 	fill(25, 23, 200, 50);
 player.visible = true;
 deleteItems();
@@ -318,20 +320,19 @@ if (inside.scale > 8) {
 
 function endGame(){
 	
-	button.remove();
-
-
- input.hide();
+	
 	background(212,112,45);
 	textSize(64);
  fill(255);
  textAlign(CENTER);
-text("You made it, atleast.", width/2,height/2-50);
+text("You made it, atleast.", width/2,player.position.y-300);
  textSize(24);
- text("(There's alway's next semester.)", width/2,height/2+50);
+ text("(There's alway's next semester.)", width/2,player.position.y-200);
 insideScale = inside.scale;
 friends.splice(0,friends.length);
-obstacles.splice(0,obstacles.length);
+obstacles.splice(0,obstacles.length)
+input.remove();
+button.remove();
 
  
 
