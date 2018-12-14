@@ -87,16 +87,6 @@ function playGame() {
 
 function startScreen() {
 
-
-
-// title = createElement('h1', 'The Semester');
-// title.position(gameWidth/2 + 50, gameHeight/2-200);
-// title.style('color', col2);
-//   greeting = createElement('h2', 'Enter your semester goal to begin');
-//   greeting.position(gameWidth/2, gameHeight-100);
-   
-// instructions1=createElement('p', "Left/Right Arrows to Move");
-// instructions1.position(gameWidth/2, gameHeight/2);
 fill(123)
 textSize(64)
 textAlign(CENTER);
