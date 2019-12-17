@@ -15,9 +15,13 @@ ul {
 li {
 	display:inline;
 	text-align:center;
-	margin:3%;
+	margin-right:3%;
+	margin-left:3%;
 	font-size:2vw;
 
+}
+.container{
+	margin-top:3%;
 }
 
 nav {
@@ -32,8 +36,6 @@ nav {
 
 h1 {
 	font-size:4vw;
-	padding-top:3%;
-	padding-bottom:3%;
 
 }
 
@@ -48,29 +50,9 @@ a:hover {
 	color:black;
 }
 
-.ctrImage {
 
-    width: 70%;
-    height:auto;
-    margin-right: 13%;
-    margin-left: 16%;
-    margin-top:1%;
-}
 
-.hide {
-	display:none;
-}
 
-.controls {
-	max-width:3%;
-	height:auto;
-	margin-right:3%;
-	margin-top:2%;
-}
-
-#unmute, #mute {
-	cursor:pointer;
-}
 
 .linkSpace {
 	margin-right:20%;
@@ -79,7 +61,25 @@ a:hover {
 
 }
 
-.icons {
-	margin:2%;
-	display:inline;
+
+
+.me{
+	width:80%;
+	margin-top:5%;
+	padding-bottom:5%;
+}
+
+.growup{
+	width:80%;
+	text-align:left;
+	margin-left:10%;
+
+}
+
+.header {
+	margin-top:2%;
+}
+
+.lefttext {
+	text-align:center;
 }
