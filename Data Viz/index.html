@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Decline of Local Journalism in Ohio</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@700&display=swap" rel="stylesheet">
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://unpkg.com/topojson@3"></script>
+</head>
+<body>
+<div id = "leftside">
+	<div id="map">
+		
+	</div>
+	<div class="slidecontainer">
+		<div>
+	  		<input type="range" min="0" max="3" value="0" step="1" class="slider" id="yearInput">
+	  		<div id="caption"><p id="year"></p><p id="secondaryText">// NUMBER OF NEWSPAPERS PER COUNTY</p></div>
+	  	</div>
+
+		<div class="legend">
+			<ul class="legend-row1">
+				<li><span class="circle" style="background: #180000"></span>0 </li>
+				<li><span class="circle" style="background: #700B0B"></span>1 </li>
+				<li><span class="circle" style="background: #AA3939"></span>2</li>
+			
+				<li><span class="circle" style="background: #E48181"></span>3-5</li>
+				<li><span class="circle" style="background: #FFCDCD"></span>5-10</li>
+				<li><span class="circle" style="background: #FFF"></span>10+</li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

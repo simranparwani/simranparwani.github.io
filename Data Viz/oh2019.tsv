@@ -1,0 +1,214 @@
+state	newspaper_id	newspaper_name	frequency	city	county	owner_id	owner_name	owner_type	total_circulation	days_published
+OH	14892	Ada Herald	W	Ada	Hardin	2069	Delphos Herald Inc	NA	3000	1
+OH	20129	Suburbanite The	W	Akron	Summit	2464	Gannett/Gatehouse	Investment	33115	1
+OH	10037	Akron Beacon Journal	D	Akron	Summit	2464	Gannett/Gatehouse	Investment	70624	7
+OH	10067	Review	D	Alliance	Stark	2464	Gannett/Gatehouse	Investment	8995	6
+OH	17958	News	W	Andover	Ashtabula	2572	Gazette Newspapers (OH)	NA	1710	1
+OH	15001	Farmland News	W	Archbold	Fulton	2727	Grisez Jed	NA	2400	1
+OH	15000	Archbold Buckeye	W	Archbold	Fulton	1136	Archbold Buckeye Inc	NA	2186	1
+OH	10154	Ashland Times Gazette	D	Ashland	Ashland	2464	Gannett/Gatehouse	Investment	9655	6
+OH	13373	Star-Beacon	D	Ashtabula	Ashtabula	6032	CNHI	Investment	5200	6
+OH	15037	Athens News	W	Athens	Athens	1023	Adams Publishing Group	Private	15942	2
+OH	10167	Athens Messenger	D	Athens	Athens	1023	Adams Publishing Group	Private	11272	7
+OH	15046	Attica Hub	W	Attica	Seneca	4918	Seneca Publishing LLC	NA	4400	1
+OH	20783	West Life	W	Avon Lake	Cuyahoga	2163	Douthit Communications Inc	NA	12750	1
+OH	14741	Press	W	Avon Lake	Lorain	2163	Douthit Communications Inc	NA	6500	1
+OH	15088	Barberton Herald	W	Barberton	Summit	5611	Vespoint Publishing Co Inc	NA	41418	1
+OH	15089	Barnesville Enterprise	W	Barnesville	Belmont	2464	Gannett/Gatehouse	Investment	4643	1
+OH	18902	Clermont Sun	W	Batavia	Clermont	5259	Sun Group Newspapers	NA	20500	1
+OH	10260	Bellefontaine Examiner	D	Bellefontaine	Logan	3040	Hubbard Publishing Company	NA	9130	6
+OH	15145	Bellville Star and Tri-Forks Press	W	Bellville	Richland	1039	AIM Media	Private	2116	1
+OH	15223	Boardman News	W	Boardman	Mahoning	2016	Darnell Jack	NA	8100	1
+OH	10350	Sentinel-Tribune	D	Bowling Green	Wood	1039	AIM Media	NA	8252	6
+OH	12834	Cleveland Plain Dealer The	D	Brooklyn	Cuyahoga	1030	Advance Publications	Private	148179	7
+OH	10409	Bryan Times	D	Bryan	Williams	1529	Bryan Publishing Company	NA	7499	5
+OH	15332	Buckeye Lake Beacon	W	Buckeye Lake	Licking	4522	Prince Charles	NA	1477	1
+OH	16515	Harrison News-Herald	W	Cadiz	Harrison	4867	Schloss Media Inc.	NA	6040	1
+OH	19391	Journal and Noble County Leader The	W	Caldwell	Noble	5080	Southeast Publications	NA	4500	1
+OH	10849	Daily Jeffersonian	D	Cambridge	Guernsey	2464	Gannett/Gatehouse	Investment	9322	6
+OH	10476	Repository The	D	Canton	Stark	2464	Gannett/Gatehouse	Investment	42968	7
+OH	19903	Progressor Times	W	Carey	Wyandot	5971	Zender Steve	NA	4000	1
+OH	17294	Mohawk Leader	W	Carey	Wyandot	5971	Zender Steve	NA	4000	1
+OH	19157	Free Press Standard	W	Carrollton	Carroll	1642	Carrollton Publishing	NA	6200	1
+OH	10932	Daily Standard	D	Celina	Mercer	5132	Standard Printing Co	NA	10000	6
+OH	18307	Solon Times	W	Chagrin Falls	Cuyahoga	2163	Douthit Communications Inc	NA	2900	1
+OH	15511	Chagrin Valley Times	W	Chagrin Falls	Cuyahoga	2163	Douthit Communications Inc	NA	20000	1
+OH	16310	Geauga County Maple Leaf	W	Chardon	Geauga	2575	Geauga County Maple Leaf LLC	NA	4508	1
+OH	10601	Chillicothe Gazette	D	Chillicothe	Ross	2547	Gannett/Gatehouse	Public	7128	7
+OH	57341	Cincinnati Herald	W	Cincinnati	Hamilton	3278	Kearney, Jan Michele	NA	16000	1
+OH	57339	Cincinnati Citybeat	W	Cincinnati	Hamilton	5078	SouthComm Inc	NA	30013	1
+OH	10614	Cincinnati Enquirer	D	Cincinnati	Hamilton	2547	Gannett/Gatehouse	Public	86345	7
+OH	10618	Herald	D	Circleville	Pickaway	1023	Adams Publishing Group	Private	6690	5
+OH	57631	Sun News	W	Cleveland	Cuyahoga	1030	Advance Publications	Private	137284	1
+OH	18123	Rural-Urban Record	W	Columbia Station	Lorain	1398	Boise Lee	NA	21619	1
+OH	10696	Columbus Dispatch The	D	Columbus	Franklin	2464	Gannett/Gatehouse	Investment	105917	7
+OH	19521	Madison Messenger	W	Columbus	Madison	1815	Columbus Messenger Newspapers	NA	15095	1
+OH	14733	Courier	W	Conneaut	Ashtabula	2572	Gazette Newspapers (OH)	NA	2880	1
+OH	10739	Coshocton Tribune	D	Coshocton	Coshocton	2547	Gannett/Gatehouse	Public	3111	7
+OH	18967	Crestline Advocate	W	Crestline	Crawford	1951	Crestline Advocate Inc	NA	2400	1
+OH	18984	Dalton Gazette and Kidron News	W	Dalton	Wayne	5911	Woodruff Francis	NA	1510	1
+OH	57391	Oakwood Register	W	Dayton	Montgomery	5877	Winkler, Dolores	NA	6620	1
+OH	10987	Crescent-News	D	Defiance	Defiance	1023	Adams Publishing Group	Private	13500	6
+OH	20145	Sunbury News	W	Delaware	Delaware	1039	AIM Media	Private	3040	1
+OH	10995	Delaware Gazette	D	Delaware	Delaware	1039	AIM Media	Private	6000	6
+OH	11000	Delphos Herald	W	Delphos	Allen	2069	Delphos Herald Inc	NA	13881	6
+OH	19017	Deshler Flag	W	Deshler	Henry	3890	Mickens Inc	NA	1400	1
+OH	13009	Review	D	East Liverpool	Columbiana	4228	Ogden Newspapers	Private	5862	7
+OH	14440	Register-Herald	W	Eaton	Preble	1039	AIM Media	Private	17300	2
+OH	19067	Edgerton Earth	W	Edgerton	Williams	5303	SWW Publishing Ltd	NA	1301	1
+OH	10609	Chronicle-Telegram	D	Elyria	Lorain	3583	Lorain County Printing & Publishing Co	NA	22472	7
+OH	57417	Courier Plus	W	Findlay	Hancock	2418	Findlay Publishing Company	NA	13750	1
+OH	11261	Courier	D	Findlay	Hancock	2418	Findlay Publishing Company	NA	20129	6
+OH	14070	Review Times The	D	Fostoria	Seneca	2418	Findlay Publishing Company	NA	2500	6
+OH	10975	Dayton Daily News	D	Franklin	Montgomery	6262	Apollo Global Management	Private	70744	7
+OH	12857	Port Clinton News-Herald	D	Fremont	Ottawa	2547	Gannett/Gatehouse	Public	1941	6
+OH	11328	News-Messenger The	D	Fremont	Sandusky	2547	Gannett/Gatehouse	Public	4715	6
+OH	14073	Galion Inquirer	W	Galion	Crawford	1039	AIM Media	Private	1800	2
+OH	11349	Gallipolis Daily Tribune	D	Gallipolis	Gallia	1039	AIM Media	Private	4466	5
+OH	18061	Ripley Bee	W	Georgetown	Brown	6013	Clermont Sun Publishing	NA	1583	1
+OH	14441	News Democrat	W	Georgetown	Brown	6013	Clermont Sun Publishing	NA	20200	1
+OH	19051	Early Bird	W	Greenville	Darke	1501	Brothers' Publishing Company	NA	27985	1
+OH	11466	Daily Advocate	D	Greenville	Darke	1039	AIM Media	Private	6468	6
+OH	11506	JournalNews	D	Hamilton	Butler	6262	Apollo Global Management	Private	18693	7
+OH	16516	Harrison Press	W	Harrison	Hamilton	2069	Delphos Herald Inc	NA	4110	1
+OH	19711	News-Tribune The	W	Hicksville	Defiance	1558	Burth MaryAnn	NA	2207	1
+OH	13605	Hillsboro Times-Gazette	D	Hillsboro	Highland	1039	AIM Media	Private	4500	5
+OH	11727	Ironton Tribune	D	Ironton	Lawrence	1409	Boone Newspapers	Private	5228	6
+OH	20355	Telegram	W	Jackson	Jackson	5347	Telegram Publishing Co. Inc.	NA	6000	2
+OH	21232	Lake County Tribune	W	Jefferson	Ashtabula	2572	Gazette Newspapers (OH)	NA	2402	1
+OH	14736	Gazette	W	Jefferson	Ashtabula	2572	Gazette Newspapers (OH)	NA	3700	1
+OH	15056	Aurora Advocate	W	Kent	Portage	2464	Gannett/Gatehouse	Investment	167	1
+OH	12957	Record-Courier	D	Kent	Portage	2464	Gannett/Gatehouse	Investment	13581	7
+OH	57551	Nordonia Hills News Leader	W	Kent	Summit	2464	Gannett/Gatehouse	Investment	304	1
+OH	18585	Tallmadge Express	W	Kent	Summit	2464	Gannett/Gatehouse	Investment	216	1
+OH	18493	Stow Sentry	W	Kent	Summit	2464	Gannett/Gatehouse	Investment	14967	1
+OH	16651	Hudson Hub-Times	W	Kent	Summit	2464	Gannett/Gatehouse	Investment	243	2
+OH	15816	Cuyahoga Falls News-Press	W	Kent	Summit	2464	Gannett/Gatehouse	Investment	320	1
+OH	14077	Kenton Times	D	Kenton	Hardin	4600	Ray Barnes Newspapers Inc	NA	7200	6
+OH	11927	Eagle-Gazette Media	D	Lancaster	Fairfield	2547	Gannett/Gatehouse	Public	7011	7
+OH	17659	ThisWeek Olentangy Valley News	W	Lewis Center	Delaware	2464	Gannett/Gatehouse	Investment	20103	1
+OH	15880	ThisWeek Delaware News	W	Lewis Center	Delaware	2464	Gannett/Gatehouse	Investment	16520	1
+OH	19845	ThisWeek Pickerington Times-Sun	W	Lewis Center	Fairfield	2464	Gannett/Gatehouse	Investment	12805	1
+OH	21260	ThisWeek The Canal Winchester Times	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	9580	1
+OH	20965	ThisWeek Worthington News	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	17875	1
+OH	20877	ThisWeek Whitehall News	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	5110	1
+OH	20843	ThisWeek West Side News	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	7850	1
+OH	20821	ThisWeek Westerville News and Public Opinion	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	25825	1
+OH	20585	ThisWeek Upper Arlington News	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	18473	1
+OH	18755	ThisWeek Clintonville Booster	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	14250	1
+OH	18093	ThisWeek Rocky Fork Enterprise	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	14419	1
+OH	18038	ThisWeek Reynoldsburg News	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	11110	1
+OH	17598	ThisWeek Northwest News	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	3344	1
+OH	17590	ThisWeek Northland News	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	14294	1
+OH	17442	ThisWeek New Albany News	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	7219	1
+OH	16591	ThisWeek Hilliard Northwest News	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	21859	1
+OH	16453	ThisWeek Grove City Record	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	14614	1
+OH	16324	ThisWeek German Village Gazette	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	4316	1
+OH	15955	ThisWeek Dublin Villager	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	19462	1
+OH	15180	ThisWeek Bexley News	W	Lewis Center	Franklin	2464	Gannett/Gatehouse	Investment	7691	1
+OH	19476	Liberty Press	W	Liberty Center	Henry	3890	Mickens Inc	NA	1123	1
+OH	17950	Today's Pulse	W	Liberty Township	Butler	1922	Cox Newspapers	Private	45400	1
+OH	12013	Lima News	D	Lima	Allen	1039	AIM Media	Private	22551	7
+OH	12351	Morning Journal	D	Lisbon	Columbiana	4228	Ogden Newspapers	Private	8684	7
+OH	12048	Logan Daily News	D	Logan	Hocking	1023	Adams Publishing Group	Private	3300	5
+OH	12111	Madison Press	D	London	Madison	1039	AIM Media	Private	4259	5
+OH	12066	Morning Journal	D	Lorain	Lorain	2107	Tribune/Digital First	Investment	15261	7
+OH	19513	Louisville Herald	W	Louisville City	Stark	1744	Clapper Frank	NA	2500	1
+OH	13480	Telegraph-Forum	D	Mansfield	Crawford	2547	Gannett/Gatehouse	Public	3203	6
+OH	12138	News Journal	D	Mansfield	Richland	2547	Gannett/Gatehouse	Public	14706	7
+OH	12149	Marietta Times	D	Marietta	Washington	4228	Ogden Newspapers	Private	7488	6
+OH	12154	Marion Star	D	Marion	Marion	2547	Gannett/Gatehouse	Public	5374	7
+OH	12171	Times-Leader	D	Martins Ferry	Belmont	4228	Ogden Newspapers	Private	10451	7
+OH	19961	Richwood Gazette	W	Marysville	Union	3731	Marysville Newspapers Inc	NA	2011	1
+OH	12176	Marysville Journal-Tribune	D	Marysville	Union	1276	Behrens Dan	NA	6656	6
+OH	12182	Independent The	D	Massillon	Stark	2464	Gannett/Gatehouse	Investment	8368	6
+OH	20654	Vinton County Courier	W	McArthur	Vinton	1023	Adams Publishing Group	Private	2500	1
+OH	17345	Morgan County Herald	W	McConnelsville	Morgan	4600	Ray Barnes Newspapers Inc	NA	5043	1
+OH	57510	Post Newspapers	W	Medina	Medina	4484	Post Newspapers	NA	21652	1
+OH	12208	Gazette	D	Medina	Medina	3583	Lorain County Printing & Publishing Co	NA	9581	6
+OH	19185	Germantown Press	W	Miamisburg	Montgomery	3884	Miami Valley Newspapers	NA	3000	1
+OH	16232	Franklin Chronicle	W	Miamisburg	Warren	3884	Miami Valley Newspapers	NA	3214	1
+OH	12262	Middletown Journal	D	Middletown	Butler	1922	Cox Newspapers	Private	11208	7
+OH	18512	Suburban/Metro Press	W	Millbury	Wood	2163	Douthit Communications Inc	NA	33930	1
+OH	57662	Wooster Weekly News	W	Millersburg	Wayne	2666	Graphic Publications Inc	NA	8625	1
+OH	19895	Press-News The	W	Minerva	Stark	2464	Gannett/Gatehouse	Investment	2200	1
+OH	18934	Community Post	W	Minster	Auglaize	3017	Horizon Publications	Private	1500	1
+OH	19643	Morrow County Sentinel	W	Mount Gilead	Morrow	1039	AIM Media	Private	2750	1
+OH	18788	Brown County Press	W	Mount Orab	Brown	5259	Sun Group Newspapers	NA	18775	1
+OH	12376	Mount Vernon News	D	Mount Vernon	Knox	4537	Progressive Communications Corp	NA	9099	6
+OH	12610	Northwest Signal	D	Napoleon	Henry	1529	Bryan Publishing Company	NA	4454	5
+OH	17798	Perry County Tribune	W	New Lexington	Perry	1023	Adams Publishing Group	Private	20400	1
+OH	57533	Firelands Farmer	W	New London	Huron	3017	Horizon Publications	NA	0	1
+OH	17459	New London Record	W	New London	Huron	3017	Horizon Publications	NA	2000	1
+OH	12462	Times-Reporter The	D	New Philadelphia	Tuscarawas	2464	Gannett/Gatehouse	Investment	15805	7
+OH	19815	Pataskala Standard	W	Newark	Licking	2547	Gannett/Gatehouse	Public	3125	1
+OH	14737	Granville Sentinel The	W	Newark	Licking	2547	Gannett/Gatehouse	Public	2300	1
+OH	10024	Advocate	D	Newark	Licking	2547	Gannett/Gatehouse	Public	11016	7
+OH	17474	Newcomerstown News	W	Newcomerstown	Tuscarawas	2464	Gannett/Gatehouse	Investment	3524	1
+OH	14740	News Leader	W	Northfield	Summit	2464	Gannett/Gatehouse	Investment	4425	1
+OH	12614	Norwalk Reflector	D	Norwalk	Huron	4228	Ogden Newspapers	Private	7165	6
+OH	20760	Wellington Enterprise	W	Oberlin	Lorain	1039	AIM Media	Private	1420	1
+OH	17637	Oberlin News-Tribune	W	Oberlin	Lorain	1039	AIM Media	Private	12000	1
+OH	14964	Amherst News-Times	W	Oberlin	Lorain	1039	AIM Media	Private	1499	1
+OH	20530	Tribune Courier and Madison Tribune	W	Ontario	Richland	5222	Stumbo Frank	NA	2605	1
+OH	17956	Putnam County Vidette	W	Ottawa	Putnam	2069	Delphos Herald Inc	NA	0	1
+OH	17955	Putnam County Sentinel	W	Ottawa	Putnam	2069	Delphos Herald Inc	NA	7907	1
+OH	17762	Paulding Progress	W	Paulding	Paulding	2069	Delphos Herald Inc	NA	14000	1
+OH	57565	Holland-Springfield Journal	W	Perrysburg	Wood	2069	Delphos Herald Inc	NA	12558	1
+OH	17802	Perrysburg Messenger-Journal	W	Perrysburg	Wood	5741	Welch Publishing Co	NA	12558	1
+OH	12827	Piqua Daily Call	D	Piqua	Miami	1039	AIM Media	Private	14591	5
+OH	10925	Daily Sentinel	D	Pomeroy	Meigs	1039	AIM Media	Private	3471	5
+OH	17886	Beacon	W	Port Clinton	Ottawa	4859	Schaffner Publications Inc	NA	14190	1
+OH	15706	Community Common	W	Portsmouth	Scioto	1039	AIM Media	Private	35640	1
+OH	12873	Portsmouth Daily Times	D	Portsmouth	Scioto	1039	AIM Media	Private	12447	6
+OH	19989	Rossford Record Journal	W	Rossford	Wood	5741	Welch Publishing Co	NA	3559	1
+OH	14078	Evening Leader The	D	Saint Marys	Auglaize	3017	Horizon Publications	Private	4470	6
+OH	13095	Salem News	D	Salem	Columbiana	4228	Ogden Newspapers	Private	3979	7
+OH	13136	Sandusky Register	D	Sandusky	Erie	4228	Ogden Newspapers	Private	18373	7
+OH	10834	Daily Globe	D	Shelby	Richland	3017	Horizon Publications	NA	3400	6
+OH	13238	Sidney Daily News	D	Sidney	Shelby	1039	AIM Media	Private	12176	5
+OH	19395	Journal News	W	Spencerville	Allen	5683	Warnecke LeAnn	NA	2100	1
+OH	13333	Springfield News-Sun	D	Springfield	Clark	6262	Apollo Global Management	Private	13055	7
+OH	11560	Herald-Star	D	Steubenville	Jefferson	4228	Ogden Newspapers	Private	9281	7
+OH	14738	Hometown Journal	W	Struthers	Mahoning	3185	Johngrass Nancy	NA	5000	1
+OH	18794	Budget	W	Sugarcreek	Tuscarawas	5107	Spector Sonia	NA	20036	1
+OH	13565	Advertiser-Tribune	D	Tiffin	Seneca	4228	Ogden Newspapers	Private	7356	7
+OH	57621	Toledo Journal	W	Toledo	Lucas	5193	Stewart, Sandra	NA	11409	1
+OH	57618	Point and Shoreland Journal	W	Toledo	Lucas	5741	Welch Publishing Co	NA	12558	1
+OH	10309	Blade	D	Toledo	Lucas	1380	Block Communications Inc	NA	74073	7
+OH	20475	Weekly Record Herald	W	Troy	Miami	1039	AIM Media	Private	3000	1
+OH	13671	Troy Daily News	D	Troy	Miami	1039	AIM Media	Private	22938	6
+OH	10807	Daily Chief-Union	D	Upper Sandusky	Wyandot	4600	Ray Barnes Newspapers Inc	NA	3822	6
+OH	13712	Urbana Daily Citizen	D	Urbana	Champaign	1039	AIM Media	Private	4600	6
+OH	20253	Utica Herald	W	Utica	Licking	2890	Heartland Communications	NA	2100	1
+OH	13601	Times Bulletin The	D	Van Wert	Van Wert	2069	Delphos Herald Inc	NA	5500	5
+OH	20624	Vandalia Drummer News	W	Vandalia	Montgomery	1039	AIM Media	Private	5200	1
+OH	16649	Huber Heights Courier	W	Vandalia	Montgomery	1039	AIM Media	Private	10130	1
+OH	16094	Englewood Independent	W	Vandalia	Montgomery	1039	AIM Media	Private	6800	1
+OH	20631	Vermilion Photojournal	W	Vermilion	Lorain	2163	Douthit Communications Inc	NA	3486	1
+OH	20277	Versailles Policy	W	Versailles	Darke	3438	Langston Graphics	NA	2000	1
+OH	13805	Wapakoneta Daily News	D	Wapakoneta	Auglaize	3017	Horizon Publications	Private	4064	6
+OH	17871	Poland Town Crier	W	Warren	Mahoning	4228	Ogden Newspapers	Private	35000	1
+OH	15411	Canfield Town Crier	W	Warren	Mahoning	4228	Ogden Newspapers	Private	35000	1
+OH	15061	Austintown Town Crier	W	Warren	Mahoning	4228	Ogden Newspapers	Private	16206	1
+OH	14745	Boardman Town Crier	W	Warren	Mahoning	4228	Ogden Newspapers	Private	35000	1
+OH	13649	Tribune Chronicle	D	Warren	Trumbull	4228	Ogden Newspapers	Private	22058	7
+OH	12962	Record-Herald	D	Washington Court House	Fayette	1039	AIM Media	Private	5235	6
+OH	90082	Swanton Enterprise	W	Wauseon	Fulton	1039	AIM Media	Private	810	1
+OH	16267	Fulton County Expositor	W	Wauseon	Fulton	1039	AIM Media	Private	4287	2
+OH	19712	Pike County News Watchman	W	Waverly	Pike	1023	Adams Publishing Group	Private	15300	2
+OH	20241	Twin Valley News	W	West Alexandria	Preble	5542	Twin Valley Publications Inc.	NA	8400	1
+OH	90083	People's Defender	W	West Union	Adams	6013	Clermont Sun Publishing	NA	21300	1
+OH	20024	Scioto Voice	W	Wheelersburg	Scioto	1071	Allard Debbie	NA	3000	1
+OH	20892	Willard Times-Junction	W	Willard	Huron	3017	Horizon Publications	NA	3650	2
+OH	16437	Greenwich Enterprise Review	W	Willard	Huron	3017	Horizon Publications	NA	14200	1
+OH	11908	News-Herald The	D	Willoughby	Lake	2107	Tribune/Digital First	Investment	27104	7
+OH	17814	Willshire Photo Star	W	Willshire	Van Wert	1548	Bunner Judith	NA	11190	1
+OH	13946	Wilmington News Journal	D	Wilmington	Clinton	1039	AIM Media	Private	22800	5
+OH	17308	Monroe County Beacon	W	Woodsfield	Monroe	2069	Delphos Herald Inc	NA	4965	1
+OH	13991	Daily Record	D	Wooster	Wayne	2464	Gannett/Gatehouse	Investment	18800	7
+OH	14001	Xenia Daily Gazette	D	Xenia	Greene	1039	AIM Media	Private	5858	5
+OH	11228	Fairborn Daily Herald	D	Xenia	Greene	1039	AIM Media	Private	3999	5
+OH	10246	Beavercreek News-Current	W	Xenia	Greene	1039	AIM Media	Private	3805	1
+OH	20978	Yellow Springs News	W	Yellow Springs	Greene	5951	Yellow Springs News Inc.	NA	1880	1
+OH	14014	Times Recorder	D	Zanesville	Muskingum	2547	Gannett/Gatehouse	Public	9834	7
