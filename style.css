@@ -1,0 +1,139 @@
+:root {
+    --accent-color:      #F46036;
+    --dark-color:        #383F51;
+    --gray-color:        #aeb5c7;
+    --white-color:       #FFF;
+
+    --title-font:    'Poppins', sans-serif;
+    --font-bold-family:     'Open Sans', sans-serif;
+    --font-weight-bold:     bold;
+
+    --h1-font-size:         2.4vw;
+    --h2-font-size:         1.2vw;
+    --h3-font-size:         1vw;
+    --p-font-size:          18px;
+    --base-font-size:       16px;
+    --menu-font-size:       1.2vw;
+
+    --border-radius-large:  100px;
+    --border-radius-small:  5px;
+  }
+
+.h1, h1 {
+    font-size: var(--h1-font-size);
+}
+
+.h2, h2 {
+    font-size: var(--h2-font-size);
+}
+
+.h3, h3 {
+    font-size: var(--h3-font-size);
+}
+#header {
+    display:flex;
+}
+#icons a .fa-lg {
+    color:var(--dark-color);
+    padding-right:1%;
+}
+
+
+
+
+.navbar-expand-md .navbar-nav .nav-link {
+    margin-right: 2rem;
+    padding-left:0rem;
+
+}
+
+
+
+.navbar {
+    margin-left:5%;
+    font-family: var(--title-font);
+    margin-top:8%;
+    color: var(--dark-color);
+    font-size: var(--menu-font-size);
+
+  }
+
+@media (max-width: 768px) {
+.navbar {
+    margin-left:0;
+}
+#viz, #header {
+    visibility: hidden;
+}
+}
+
+
+
+a.nav-link {
+    color: var(--dark-color);
+    padding-left:1%;
+}
+
+.nav-link.selected {
+    border-bottom: 1px solid var(--accent-color);
+    color: var(--accent-color);
+}
+   
+
+.nav-link.active,
+  .nav-link:hover {
+    color: var(--accent-color);
+  }
+
+
+
+
+
+.navbar-toggler {
+    padding:0;
+    color: var(--gray-color);
+}
+
+
+
+  #intro {
+    background-color: var(--white-color);
+    color: var(--dark-color);
+    font-family: var(--title-font);
+    font-size: var(--h2-font-size);
+    margin-left:8%;
+    margin-top:3%;
+    padding-top:5%;
+
+
+  }
+
+ 
+canvas {
+  position: absolute;
+  pointer-events: none
+  z-index:-1;
+  width: 100%;
+  height:16.66666%;
+}
+
+.home-page, #intro {
+    height:100%;
+}
+
+#viz {
+    z-index: 100;
+    height:100%;
+    margin-top:10%;
+    min-height: 100%;
+    overflow:visible;
+
+}
+
+.website-layer {
+    margin-top:8%;
+    height:100%;
+}
+
+
+

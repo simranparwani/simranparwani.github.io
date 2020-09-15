@@ -3,11 +3,25 @@
 <head>
 <title>The Decline of Local Journalism in Ohio</title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+<meta charset="ISO-8859-1">
+    <script src="https://kit.fontawesome.com/3204dc93a7.js" crossorigin="anonymous"></script>
 <script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://d3js.org/d3-array.v2.min.js"></script>
+
 <script src="https://unpkg.com/topojson@3"></script>
+
 </head>
 <body>
+
+	<div id = "title">
+		<p> The Decline of Local Journalism in Ohio </p>
+	</div>
+
+	<div id = "paragraph">
+		<p class = 'block-text'>Local newspapers have had a rich history in the United States, the earliest paper dating back to 1690. Local newspapers have been vital in building community identity and regional grassroots activism. They also contribute to regional economic growth by connecting community members with regional small businesses. They shape a community's policy decisions and give voice to local issues. <a src = 'https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.20160812'>With the increasing partisan bias in mainstream media, </a>it is essential that communities have access to credible news that they trust. <br><br>Yet in Ohio, newspapers are disappearing each year. <span id="highlight">From 2004-2019, 104 newspapers have shut down or been merged with another paper.</span> Using the University of North Carolina's Center for Innovation and Sustainability in Local Media's <a src='https://www.usnewsdeserts.com/methodology/'>Database of Newspapers,</a> let's explore the change in the number of newspapers per county over these fifteen years.</p>
+	</div>
+<div id = "container">
 <div id = "leftside">
 	<div id="map">
 		
@@ -15,24 +29,72 @@
 	<div class="slidecontainer">
 		<div>
 	  		<input type="range" min="0" max="3" value="0" step="1" class="slider" id="yearInput">
-	  		<div id="caption"><p id="year"></p><p id="secondaryText">// NUMBER OF NEWSPAPERS PER COUNTY</p></div>
 	  	</div>
 
 		<div class="legend">
-			<ul class="legend-row1">
-				<li><span class="circle" style="background: #180000"></span>0 </li>
-				<li><span class="circle" style="background: #700B0B"></span>1 </li>
-				<li><span class="circle" style="background: #AA3939"></span>2</li>
-			
-				<li><span class="circle" style="background: #E48181"></span>3-5</li>
-				<li><span class="circle" style="background: #FFCDCD"></span>5-10</li>
-				<li><span class="circle" style="background: #FFF"></span>10+</li>
+			<div id="caption"><p id="year"></p><p id="secondaryText">// NUMBER OF NEWSPAPERS PER COUNTY</p></div>
+
+			<ul id="legend-row1">
+				<li id = "legendItem" class="leg0"><span id="circle" class="leg0" style="background: #180000"></span>0 </li>
+				<li id = "legendItem" class="leg1"><span id="circle" class="leg1" style="background: #700B0B"></span>1 </li>
+				<li id = "legendItem" class="leg2"><span id="circle" class="leg2" style="background: #AA3939"></span>2</li>
+				<li id = "legendItem" class="leg3"><span id="circle" class="leg3" style="background: #E48181"></span>3-5</li>
+				<li id = "legendItem" class="leg4"><span id="circle" class="leg4" style="background: #FFCDCD"></span>5-10</li>
+				<li id = "legendItem" class="leg5"><span id="circle" class="leg5" style="background: #FFF"></span>10+</li>
+				<li id = "legendItem" class="leg6"><i style = "color:#d3d3d3" class="fa fa-refresh" id="leg6" aria-hidden="true"></i></li>
+
 			</ul>
 		</div>
 	</div>
 
 </div>
-<script src="script.js"></script>
+<div id = "rightside">
+	<span id= "county"><p style="font-size:1vw;">1. Click on a county to learn more.<br><br>2. Click the legend to filter by number of newspapers.<br><br>3. Use the slider to change the year.</p></span>
+	<ul id ="paperList"></ul>
+</div>
+</div>
+<div id = "section2">
+<div id = "paragraph">
+		<p class = 'block-text'>In 2004, 21 out of the 88 counties in Ohio had only one newspaper in the whole county. By 2019, that number rose to 41 counties...nearly 47%. Out of the 104 newspapers that closed in this 15 year time period in Ohio, 77 were in metro counties while 27 were in non-metro. For instance, Cuyahoga County where Cleveland is located had 26 newspapers in 2004 and merely 5 by 2019.<br><br>These patterns in Ohio are similar to those of the overall United States. According to Professor Penelope Muse Abernathy, a professor at the UNC Hussman School of Journalism and Media, <span id="highlight">the US has lost nearly 1800 papers since 2004.</span> There are almost 2000 counties without local papers--Abernathy describes such counties as news deserts. Many of these counties also have poverty rates above the national average.<br><br>What is causing this decline in local journalism? Though there is an obvious change in reader behavior with many people now accessing the news online, the significant decreases in newspaper circulation also stem from changing ownership patterns. Many metro and regional papers are decreasing circulation to surrounding rural and suburban areas. Additionally, fewer and fewer newspapers are independently-owned. The top 25 companies owning the most newspapers now control <span id="highlight">nearly a third of all papers,</span> up from 20% in 2004. For instance, New Media/GateHouse owns 451 papers 34 states. <br><br>Ohio presents a staggering case study in which <span id="highlight">30% of its newspapers have changed ownership since 2014.</span> Let's explore how newspapers have consolidated over time in Ohio.</p>
+	</div>
+</div>
+
+<div id="bubbleContainer">
+<div id = "leftBubble">
+	
+</div>
+<div id="rightBubble">
+		<div id="bubbleSliderContainer">
+	  		<input type="range" min="0" max="3" value="0" step="1" class="slider" id="yearBubbleInput">
+	  		<div id="caption2"><p id="yearBubble"></p>
+	  	</div>
+
+		
+		<div>
+			<p id="captionText">OHIO NEWSPAPERS GROUPED BY OWNER</p></div>
+			<p class="bubble-text">Each <strong style="color:#C0876D;">dot</strong> represents a newspaper. <br><br>Each <strong style="color:#C0876D;">cluster </strong>represents an owner.<br><br>The <strong style="color:#C0876D;">cluster color</strong> represents the number of newspapers that owner owns.</p>
+
+		</div>
+
+		<div class="bubbleLegend">
+			<ul id="legend-row2">
+				<li id="legend2"><span id="circle2" class="leg1" style="background: #654236"></span>1 </li>
+				<li id="legend2"><span id="circle2" class="leg2" style="background: #E9B872"></span>2</li>
+				<li id="legend2"><span id="circle2" class="leg3" style="background: #C0876D"></span>3-5</li>
+				<li id="legend2"><span id="circle2" class="leg4" style="background: #D6D4A0"></span>5-10</li>
+				<li id="legend2"><span id="circle2" class="leg5" style="background: #AA3939"></span>10+</li>
+
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id = "section3">
+<div id = "paragraph">
+		<p class = 'block-text'>In 2004, there were 8 owners with more than 10 papers. The largest of this group was the Brown Publishing Company with 33 papers. In 2019, the largest owner is Gannett/GateHouse with 54 papers. <span id="highlight">Furthermore, there are now 3 groups in Ohio owning more than 10 papers.</span><br><br>According to Abernathy's research, these media barons pose a threat to local communities. First, there is a stronger willingness to close or sell papers that are underperforming. For instance, Civitas closed 8 suburban weekly papers in Ohio and North Carolina. "The suburban newspaper isn't a fit in our business model," Civitas CEO Michael Bush explained. Second, there is an aggressive emphasis on cost-cutting strategies even when it means compromising newsroom staffing or operations. Third, consolidation by media barons contributes to operations being outsourced to remote locations not necessarily in the community. For instance, over 200 of GateHouse's papers across the US are operated from a center in Austin, Texas. This results in weaker community ties to the paper.<br><br><strong style="color:#C0876D;">Methodology:</strong> The data was obtained from the University of North Carolina's Center for Innovation and Sustainability in Local Media's Database of Newspapers. Due to errors in duplicate primary keys for various states, I decided to focus on my home state of Ohio because the data was accurate for this subset. I cleaned the data using python and pandas. Data was used for the years 2004, 2014, 2016, and 2019 since those were the years available from the database. The code for this webpage and the Jupyter notebook used to clean the data can be found in this github repository. </p>
+	</div>
+</div>
+<script src="./script.js"></script>
 
 </body>
 </html>

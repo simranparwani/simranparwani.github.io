@@ -1,0 +1,48 @@
+{
+  "nodes": [
+    {"id": "yelp", "group": 1, "main": false},
+    {"id": "broadband", "group": 1, "main": false},
+    {"id": "bail", "group": 2, "main": false},
+    {"id": "ratrace", "group":1, "main": false},
+    {"id": "personal", "group":4, "main": false},
+     {"id": "impact2030", "group":4, "main": false},
+      {"id": "maasalama", "group":4, "main": false},
+     {"id": "selfTracking", "group":2, "main": false},
+     {"id": "ptp", "group": 2, "main": false},
+     {"id": "menstrual", "group": 3, "main": false},
+     {"id": "westemhsc", "group": 3, "main": false},
+     {"id": "ohioNews", "group": 2, "main": false},
+      {"id": "code", "group":1, "main": true}, 
+      {"id": "dataStorytelling", "group":2, "main": true},
+      {"id": "socialImpact", "group":3, "main": true},
+      {"id": "vizDesign", "group":4, "main": true}
+      
+    ],
+
+  "links": [
+    {"source": "yelp", "target": "code", "value": 1},
+    {"source": "broadband", "target": "code", "value": 1},
+    {"source": "ratrace", "target": "code", "value": 1},
+    {"source": "bail", "target": "code", "value": 1},
+    {"source": "bail", "target": "socialImpact", "value": 1},
+    {"source": "bail", "target": "vizDesign", "value": 1},
+    {"source": "bail", "target": "dataStorytelling", "value": 3},
+    {"source": "personal", "target": "vizDesign", "value": 1},
+    {"source": "impact2030", "target": "vizDesign", "value": 1},
+    {"source": "impact2030", "target": "socialImpact", "value": 1},
+    {"source": "maasalama", "target": "vizDesign", "value": 1},
+    {"source": "selfTracking", "target": "vizDesign", "value": 1},
+    {"source": "ptp", "target": "code", "value": 1},
+    {"source": "ptp", "target": "socialImpact", "value": 1},
+    {"source": "menstrual", "target": "vizDesign", "value": 1},
+    {"source": "menstrual", "target": "socialImpact", "value": 1},
+    {"source": "westemhsc", "target": "socialImpact", "value": 1},
+    {"source": "ohioNews", "target": "code", "value": 1},
+    {"source": "ohioNews", "target": "socialImpact", "value": 1},
+    {"source": "ohioNews", "target": "vizDesign", "value": 1},
+    {"source": "ohioNews", "target": "dataStorytelling", "value": 3},
+    {"source": "code", "target": "dataStorytelling", "value": 5},
+    {"source": "vizDesign", "target": "dataStorytelling", "value": 5},
+    {"source": "socialImpact", "target": "dataStorytelling", "value": 5}
+  ]
+}

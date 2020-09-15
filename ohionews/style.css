@@ -1,6 +1,104 @@
+body {
+  background-color: #f7f2ea;
+}
+
+path {
+  pointer-events: all;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a:hover {
+  color:#C0876D;
+}
+#highlight {
+  background-color:#C0876D;
+  color: white;
+}
+
+#legendItem {
+  pointer-events: all;
+  cursor:pointer;
+}
+
+path:hover {
+  opacity: .5;
+
+}
+#title {
+  font-family: Georgia, sans-serif;
+  font-size: 5.5vw;
+  text-align:center;
+  margin-left:15%;
+  margin-right:15%;
+  margin-top:10%;
+  font-weight:500;
+}
+#section2 {
+  margin-top:65%;
+}
+
+#section3 {
+  margin-top:65%;
+}
+.block-text {
+  font-family: 'Lato', sans-serif;
+  margin-left: 15%;
+  margin-right:15%;
+  font-size: 1.4vw;
+}
+
+.bubble-text {
+    font-family: 'Lato', sans-serif;
+font-size: 1.4vw;
+}
+
+#container {
+  margin:auto;
+  width:100%;
+  height:100%;
+}
 #leftside {
   margin-top:5%;
-  width: 50%;
+  width: 60%;
+  float:left;
+}
+#rightside {
+  width:30%;
+  margin-top:10%;
+  float:left;
+  margin-left:5%;
+}
+
+#paperList {
+  font-family: 'Lato', sans-serif;
+  font-size:1.3vw;
+  font-weight:300;
+}
+
+ ul {
+  list-style: none;
+  padding-inline-start: 10px;
+
+ }
+
+ 
+
+#county {
+  font-family: 'Lato', sans-serif;
+  font-size:2vw;
+}
+
+#yearBubble {
+  font-family: 'Oswald', sans-serif;
+  font-size:1.5vw;
+  display:inline-block;
+  margin-bottom: 0;
+  width:15%;
+  float:left;
 }
 
 #year {
@@ -11,33 +109,41 @@
 }
 #caption {
   margin-bottom:0;
+  width:75%;
+  margin-left:5%;
 }
 #secondaryText {
   font-size:1.5vw;
   font-family:'Lato', sans-serif;
   font-weight: 400;
-  color: #767676;
   display: inline-block;
   margin-left:3%;
   margin-bottom: 0;
 }
 
+#captionText {
+  font-size:1.5vw;
+  font-family:'Lato', sans-serif;
+  font-weight: 400;
+}
 
-.legend-row1 {
+#instruction {
+  font-size: 1vw;
+}
+#legend-row1 {
   font-family:'Lato', sans-serif;
   font-weight: 200;
   font-size:1.5vw;
   list-style:none;
   padding-left:0;
-  color: #bfbfbf;
+  margin-left:5%;
 }
-li {
+#legendItem {
   display:inline-block;
   margin-right:25px;
 }
 
-.circle {
- border: 1px solid #ccc; 
+#circle {
  border-radius:25px;
  float: left; 
  width: 33px; 
@@ -47,7 +153,7 @@ li {
 
 .slidecontainer {
   width:100%;
-  margin-left:10%;
+  margin-left:15%;
   margin-top:2%;
   margin-bottom:2%;
 
@@ -56,7 +162,7 @@ li {
 .slider {
   text-align:center;
   -webkit-appearance: none;
-  width:75%;
+  width:70%;
   height: 15px;
   border-radius: 5px;  
   background: #d3d3d3;
@@ -64,6 +170,10 @@ li {
   opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
+}
+
+#legend {
+  text-align: center;
 }
 
 .slider::-webkit-slider-thumb {
@@ -82,4 +192,46 @@ li {
   border-radius: 50%;
   background: #E9B872;
   cursor: pointer;
+}
+
+
+#bubbleContainer {
+  width:100%;
+}
+
+#leftBubble {
+  margin-left:5%;
+  margin-top:10%;
+  width:60%;
+  float:left;
+}
+
+#rightBubble {
+  float: left;
+  width:30%;
+  margin-top:15%;
+  margin-right:5%;
+}
+#legend-row2 {
+  padding-inline-start:0px;
+}
+#legend2 {
+  display:inline-block;
+  font-family:'Lato', sans-serif;
+  font-weight: 200;
+  font-size:1.5vw;
+  padding-left:0;
+  margin-right:2%;
+}
+
+#circle2 {
+ border-radius:25px;
+ width: 33px; 
+ height: 33px;
+ margin-right:5px;
+ float:left;
+}
+
+#bubbleSliderContainer {
+  width:100%;
 }
