@@ -50,7 +50,7 @@ let data = {
 let width = window.innerWidth*.6;
 let height = window.innerHeight * .8;
 let colors = ["FFF","#6B9080", "#6A5B6E", "#F46036", "#F0C62D"]
-let labels = ["Labels","Code", "Data Activism", "Social Impact", "Visualization"]
+let labels = ["Labels","Code", "Data Journalism", "Social Impact", "Visualization"]
 
 createChart(data);
 
@@ -110,7 +110,7 @@ function createChart(data){
         
         .attr("r", function(d) {
             if (d.main === true) {
-                return 24;
+                return 18;
             } else {
                 return 6;
             }
@@ -136,7 +136,7 @@ node.append("title")
   
 
     simulation.on("tick", () => {
-        let lineLength = 1.4;
+        let lineLength = 1.2;
         link
             .attr("x1", d => lineLength * d.source.x)
             .attr("y1", d => lineLength * d.source.y)
