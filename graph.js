@@ -110,7 +110,7 @@ function createChart(data){
         
         .attr("r", function(d) {
             if (d.main === true) {
-                return 18;
+                return 22;
             } else {
                 return 6;
             }
@@ -123,7 +123,7 @@ function createChart(data){
 let titles = node.append("text").attr("color", "white")
     
     .attr("fill", "white")
-    .attr("font-size", ".4vw")
+    .attr("font-size", ".3vw")
     .attr("font-family", "Open Sans")
     .attr("text-align", "center")
       .text(function(d) {
@@ -148,7 +148,7 @@ node.append("title")
             .attr("cy", d => lineLength * d.y);
 
         titles 
-            .attr("x", d => lineLength * d.x - 22)
+            .attr("x", d => lineLength * d.x - 18)
             .attr("y", d => lineLength * d.y + 2)
     });
 
