@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+
+		<meta name="viewport" content="width=device-width , initial-scale=1" />
+		<link rel="icon" type="image/png" href="img/plane.png">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:ital,wght@0,500;0,700;1,600&display=swap" rel="stylesheet">
+		
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.js"></script>
+  		<script src="https://d3js.org/d3-force.v2.min.js"></script>
+  		<script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+  		<script src = "./paintbrush.js"></script>
+  		<script src="https://kit.fontawesome.com/3204dc93a7.js" crossorigin="anonymous"></script>
+
+  		<link rel="stylesheet" type="text/css" href="style.css">
+
+
+		<title>Simran Parwani</title>
+	</head>
+
+
+<body>
+<div id = "header">
+	<div id="sketch-holder">
+	      
+	 </div>
+</div>
+ <div class = "container-fluid website-layer">
+ 	<div class="row flex-grow-1">
+ 	<div class="col-md-6">
+		 <div class="navigation-bar">
+		 <!-- NAV BAR -->
+		 
+		<nav class="navbar navbar-expand-md">
+		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+  		</button>
+		  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+		    <ul class="navbar-nav">
+		    <li class="nav-item">
+		        <a class="nav-link text-nowrap " href="/index.html">Simran Parwani</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link"  href="/project.html">Project</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="/paper.html">Reflection</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link selected" href="/archive.html">Archive</a>
+		      </li>     
+		    </ul>
+		  </div>  
+		</nav>
+	</div>
+</div>
+</div>
+
+<section id="piece1">
+	<div class="row">
+		<div class="col-md-8">
+			<h3 class="highlight">Piece 1: Documentation</h3>
+			<h5>Visualization 1: Dot Chart</h5>
+			<p>I wanted to compare prices at the NYUAD Convenience Store with those at nearby grocery regions. Usually to compare quantities, one would do a grouped column chart where each group would represent a product and each bar could represent a different grocery brand. However, given the large sample size and the need to compare across groups, I found myself sketching a dot chart when brainstorming.</p>
+		</div>
+	</div>
+		<div class="row">
+			<div class="col-md-8">
+			<img style="width:50%;" class="img-responsive" alt="dot chart sketch" src="img/sketch1.png"/>
+			<img class="img-responsive" alt="vertical line graph sketch" src="img/sketch2.png"/>
+			<br />
+			<p>I showed the sketches to an editor at The Gazelle when discussing how to represent these prices and got good feedback.</p>
+			<img class="img-responsive" alt="high-fi sketch of dot chart in grids" src="img/dot3.png"/>
+			<img class="img-responsive" alt="high-fi sketch of dot chart in grids" src="img/dot2.png"/>
+			<img style="width:100%;" class="img-responsive" alt="high-fi sketch of dot chart all products" src="img/dot1.png"/>
+			<br />
+			<p>I wanted to change the colors to match the brands' colors for easier association. I didn't really like the grid of charts...hard to convey comparisons. These hi-fi sketches also made me realize that I could not realistically display all 82 products, thus prompting me to create categories for the products to split them in the visualization. I used Coolors.co to make sure that the visualization colors looked distinct for different types of visual abilities.</p>
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/YkYX2kkYn7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="flourish-embed flourish-scatter" data-src="visualisation/3898981"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+		</div>
+		<div class="row">
+			<div class="col-md-8">
+				<h5>Visualization 2: Population Pyramid</h5>
+				<p>How much of the NYUAD Convenience Store prices are greater than another grocery brand? To explore this, I calculated the percent difference and wanted to visualize the distribution to see the range.</p>
+				<img alt="vertical histogram showing range of percent differences" src="img/fig8.png"/>
+				<p>Though this vertical histogram was intuitive and more clear, it erased the direction of the percent difference and thus the few products that were actually cheaper at the NYUAD Convenience Store. I decided to do a population pyramid instead to show the direction of the percent difference.</p>
+				<img src="img/fig9.png" alt="Population Pyramid showing percent difference with green and red bars"/>
+				<p>In color testing, the red and green palette failed for achromatopsia. Thus, I switched to a yellow/green palette.</p>
+				<img src="img/colortestfail.png" alt="red and green palette fails for achromatopsia"/>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/0vDfqsVPA3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="flourish-embed flourish-chart" data-src="visualisation/3969363"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-8">
+				<h5>Visualization 3: Dot Chart with Line</h5>
+				<p>This was fairly straightforward to build out since I experimented with the another dot chart earlier. Since I wanted to show the difference between the two entities I was comparing, I added lines to show the difference between the dots. I kept the NYUAD purple color for our campus convenience store but added a new color for the new entity: other Blue Mart chains. Color testing passed. </p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/7JhL3KufcjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="flourish-embed flourish-scatter" data-src="visualisation/3914365"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-8">
+				<h5>Shopping Cart Game</h5>
+				<p>I wanted to build a game that would mimic the experience of shopping at the NYUAD Convenience Store and the ensueing financial loss. Here are a couple of my initial sketches. </p>
+				<img alt = "sketch of shopping cart game" src="img/shoppingcart1.png"/>
+				<img alt = "sketch of shopping cart game" src="img/shoppingcart2.png"/>
+				<p>For the specific user interaction, I wanted to do drag and drop but also wanted to make it mobile compatible. Given the quick turnaround time of publishing, I didn't want to do two separate coding approaches for mobile vs desktop. Thus, I decided to make it clickable. In user testing, most people found the clicking intuitive, though one person said they'd prefer drag and drop. I added an instruction at the top to "click on a product to add to shopping cart." After showing the next iteration to a couple of students, one person suggested having the receipt section also give you the amount that a campus dirham is worth in terms of actual dirhams. I also tested the experience on various devices.</p>   
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8">
+				<h3 class="highlight">Piece 2: Documentation</h3>
+				<h5>Visualization 1: Bar Graph</h5>
+				<p>I struggled with labelling the legend on this...one group is cross-listings only from other divisions and one group is all cross-listings. Color testing was successful for this palette.</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/YkYX2kkYn7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="flourish-embed flourish-chart" data-src="visualisation/4497778"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+				<h5>Visualization 2: Sunburst Diagram</h5>
+				<p>I originally imagined doing some sort of arc diagram connecting courses with their cross-listings. Here are my sketches imagining what that could look like. These sketches were inspired by one of my favorite data visualization designers, <a href="https://cargocollective.com/federicafragapane">Federica Fragapane.</a></p>
+				<img alt="grid of arc diagrams sketches" src="img/arc1.png"/>
+				<img alt="vertical arc diagram" src="img/arc2.png"/>
+				<img alt="radial arc diagram" src="img/arc3.png"/>
+				<img alt="chord diagram sketch" src="img/fig11.png"/>
+				<p>Eventually, I realized that the arc diagram just wouldn't work given the large sample size. I liked the radial aspect of one of the sketches and thought having a radial visualization would be well-suited for the large number of courses needed to visualize. I found myself sketching something radial but more hierarchical...a sunburst diagram! The first level could be the major, second level the courses, and the third level could be the cross-listings.</p>
+				<img alt="sketch of sunburst diagram" src="img/sunburst1.png"/>
+				<div class="flourish-embed flourish-hierarchy" data-src="visualisation/4411167"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+				<p>In user testing, people seemed to look for their own major first before exploring the rest of the visualization. I ended up adding a filter to the visualization so that people could immediately find what they were looking for. Users spent over 5 minutes on this visualization during user testing.</p>
+				<h5>Visualization 3: Violin Plot</h5>
+				<p>In this visualization, I wanted to show the distribution of the number of cross-listings in courses within a major but also compare that distribution to other majors. Thus, I was thinking of a beeswarm plot.</p>
+				<img alt="beeswarm sketch all majors on one axis" src="img/beeswarm1.png"/>
+				<img alt="beeswarm sketch with filter" src="img/beeswarm2.png"/>
+				<p>I realized that it would be more clear to have a filter by division just so the axis didn't get overcrowded. I realized that I also wanted to show the distribution, thinking that a violin plot might be more conducive</p>
+				<img alt="violinplot sketch with beeswarm dots" src="img/violin1.png"/>
+				<img alt="violin plot hi-fi prototype with grid of charts per division" src="img/violin2.png" />
+				<img alt="violin plot hi-fi prototype with dot color by division" src="img/violin3.png" />
+				<p>I thought that the violin plot was more intuitive than the beeswarm but wanted to filter by division to allow for more in-depth analysis given the limited space when publishing in The Gazelle (the width of a graphic is about 50% of window size). Thus, as nice as it would be to have every major on the same axis for comparison, it wasn't feasible without creating the plots on top of each other/being buggy. I ended up also overlaying the box plot to see the quartile range of the distribution. I played around with colors until I found a palette that was accessible.</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/EeMrFNAldP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="flourish-embed flourish-scatter" data-src="visualisation/4410375"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+				<h5>Visualization 4: Modified Chord Diagram</h5>
+				<p>I wanted to show the most flexible courses defined as having the most cross-listings. I really liked the arc diagrams I sketched and thought they would be more suitable for this subset given the small sample size. I ended up keeping the radial theme, imagining a grid of circular visualizations. However, given the size of the publication's graphics, I decided to just show one at a time. This graphic was built in D3.js and given that I couldn't embed it directly into the publication's website, I ended up builidng it in a third party host (Glitch) and embedding that iframe. To encourage examination of individual elements in nonlinear storytelling style, I added tooltips to reveal the majors/minors/core of the cross-listings.</p>
+				<img alt="sketch of a chord diagram with connections" src="img/chord1.png"/>
+				<img alt="gif showing P5.js" src="img/fig14.gif"/>
+				<p>Code can be found <a href="https://glitch.com/edit/#!/most-flexible-majors">here</a></p>
+
+				<h3 class="highlight">Piece 3: Documentation</h3>
+				<h5>Visualization 1: Chloropleth Map</h5>
+				<p>I wanted to start with the geographic distribution of the degrees to show the concentration of institutions from the Global North and start broadly. One thing I questioned was whether to make the legend scale esponsive depending on the subset examined. For instance, should the scale change depending on what is clicked on the filter, allowing for more specific insight by section? I decided to keep the visualization with the same maximum regardless of the subset examined just for accuracy in comparison.</p>
+				<div class="flourish-embed flourish-map" data-src="visualisation/5362207"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+				<h5>Visualization 2: Multi-step Alluvial</h5>
+				<p>I wanted to show the flow between countries at different levels of institutions, thinking that a type of sankey diagram would be perfect to show this! The first iteration made me realize that there were just too many institutions to represent, thus I decided to divide by academic division. Additionally, there was one floating step at the end, representing a second PhD. I decided to combine the second PhD with the PhD level, creating a new entry between Master's and PhD to represent the path of the second PhD.</p>
+				<img alt="hi-fi prototype of sankey diagram" src="img/sankey1.png"/>
+				<div class="flourish-embed" data-src="story/775556"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+				<h5>Visualization 3: Hierarchical Tree Map</h5>
+				<p>I wanted this visualization to acknowledge the diversity of institutions within a country. Thus, I first imagined doing a proportional area chart to show how much the top institution(s) made up all the institutions represented in a country.</p>
+				<img alt="sketch of two-entity proportional area map" src="img/prop1.png"/>
+				<img alt="sketch of four-entity proportional area map" src="img/prop2.png"/>
+				<p>I realized however that the proportional area chart would erase the representation of not as frequently occurring institutions. While on one hand it is helpful to see immediately what is the most represented, what is not represented is just as important. Thus, I wanted something that would show the representation of countries represented in faculty education, but also the level of representation of institutions within a country. This made me consider some type of hierarchical visualization.</p>
+				<img alt="hi-fi prototype of stacked bar" src="img/tree2.png"/>
+				<img alt="hi-fi prototype of radial bar" src="img/tree3.png"/>
+				<p>At first, I considered building some sort of bar chart, whether stacked or radial. Neither of them felt very intuitive to me, though I did like how the stacked bar chart really drove the point home of how many faculty degrees were from the United States. The radial one felt difficult to make comparisons on both levels. Thus, I decided to try out a treemap, which I ended up liking quite a bit. It felt right for lack of a better explanation of why I used it.</p>
+				<img alt="sketch of a treemap" src="img/tree1.png"/>
+				<img alt="hi-fi prototype of treemap ordered alphabetically" src="img/tree4.png"/>
+				<div class="flourish-embed flourish-hierarchy" data-src="visualisation/5401668"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+				<h3 class="highlight">Piece 4: Documentation</h3>
+				<h5>Visualization 1: Packed Circles Diagram</h5>
+				<p>The first visualization aimed to represent the most frequently occurring words in titles of Gazelle articles. Representing text visually is something I find tricky. I find word clouds a bit tacky, but they are the usual go-to for showing the most frequently occurring text. In a previous course project, I used a simple bubble chart to visualize the most followed Twitter accounts of a subset I was studying where the size of the bubble related to how followed the account was. I thought a similar chart would be great for this case; two levels would be needed to represent the semester and the words that most frequently appeared that semester...a packed circles diagram. Originally, we did not exclude any words from the visualization; however, many of the frequent words like "NYUAD" were consistent in every semester, making it difficult to convey any meaning semester to semester. Thus, we decided to remove the words that appeared in every semester as well as prepositions and articles that did not reveal anything about common topics in a particular semester.</p>
+				<img alt="sketch of packed circles diagram" src="img/packed1.png"/>
+				<div class="flourish-embed" data-src="story/815010"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+				<h5>Visualization 2: Concentric Dot Visualization</h5>
+				<p>I was really inspired by this dendrochronology (tree ring visualization) of immigration patterns in the US.</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/qxggf-ul870" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p>I liked the idea of accumulation over time. I thought there was something beautiful about the Gazelle writers all contributing to this unique publication in this unique landscape and wanted to make a tribute to everyone who had contributed. I was also interested in seeing whether there has been a change in the number of writers over time. I played around with this idea of accumulation.</p>
+				<img alt="sketch of concentric visualizations" src="img/concentric1.png"/>
+				<p>I decided to build a concentric dot visualization to simulate the growth of the Gazelle writer contributions every semester much like the addition of a tree ring each year. Here are some iterations I played around with.</p>
+				<img alt="hi-fi prototype of concentric dot visualization" src="img/concentric2.png"/>
+				<img alt="hi-fi prototype of concentric dot visualization" src="img/concentric3.png"/>
+				<img alt="hi-fi prototype of concentric dot visualization" src="img/concentric4.png"/>
+
+				<img alt="hi-fi prototype of concentric dot visualization" src="img/concentric5.png"/>
+				<p>I specifically wanted to also examine the number of unique writers each semester and what proportion of articles are written by the same people -- is the Gazelle made up of the same people writing? I wanted to examine the richness of the publication and the number of diverse voices contributing. Thus, I added a slide that had a bar graph like representation and another that had each semester's writers grouped in a packed circle with the size of the circle representing the number of articles that person contributed.</p>
+				<div class="flourish-embed" data-src="story/810440"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+				<h5>Visualization 3: Radar Chart</h5>
+				<p>I played around with different ways to represent the age composition of The Gazelle's readership.</p>
+				<img alt="stacked bar graph hi-fi prototype" src="img/radar8.png"/>
+				<img alt="stacked area chart hi-fi prototype" src="img/radar7.png"/>
+				<img alt="stacked area chart hi-fi prototype" src="img/radar6.png"/>
+				<img alt="grouped column chart hi-fi prototype" src="img/radar5.png"/>
+				<img alt="grid of donut charts hi-fi prototype" src="img/radar4.png"/>
+				<img alt="radial bar chart hi-fi prototype" src="img/radar3.png"/>
+				<img alt="star radar chart hi-fi prototype" src="img/radar2.png"/>
+				<p>I also considered doing a population pyramid with a dropdown to select two semesters, but that would limit comparison to two semesters. I liked the radar chart because it seemed to facilitate comparison the easiest. I liked how there was also the option to stack the radar charts on top of each other for even clearer comparison. I also wanted to try to use unique visualizations as a way of increasing community members' ideas of what data can like beyond the usual bar charts/pie graphs. Color testing passed.</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Dm50My8gPJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="flourish-embed flourish-radar" data-src="visualisation/5733860"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+				<h5>Visualization 4: Radial Tree</h5>
+				<p>I knew from the start that I wanted to do a radial tree visualization to show the page views. It would have the ability to compare quantities like a bar chart but had the added benefit of being able to visualize multiple levels of quantities and also fit the large sample size. I wanted something that would visualize all the issues as a testament to the presence of the publication. Though I knew I wanted a radial tree, I did play around with a few other visualizations.</p>
+				<img alt="sunburst diagram prototype for page views of The Gazelle" src="img/pagetree2.png"/>
+				<img alt="bar chart prototype for page views" src="img/pagetree1.png"/>
+
+				<div class="flourish-embed flourish-hierarchy" data-src="visualisation/5697742"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+				<h3 class="highlight">Piece 5: Documentation</h3>
+				<h5>Visualization 1: Population Pyramid</h5>
+				<p>The first visualization aimed to represent the gender representation in engineering and science faculty. I found this difficult to visualize given the absence of female faculty in certain categories. I wanted to make sure to stay away from colors that uphold the gender binary (male=blue, female=pink/red). Here are some of my experiments with building this visualization such as a tree map, connected dot chart, and simple column chart. Color testing passed.</p>
+				<img alt="prototype of treemap for gender representation in stem faculty" src="img/gender1.png"/>
+				<img alt="prototype of column chart for gender representation in stem faculty" src="img/gender2.png"/>
+				<img alt="prototype of connected dot chart for gender representation in stem faculty" src="img/gender3.png"/>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/xgis-w9e9W4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="flourish-embed" data-src="story/834967"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+				<h5>Visualization 2: Working with Personal Data</h5>
+				<p>In this visualization, I wanted to convey how being underrepresented in STEM can affect various aspects of your education/NYUAD experience. I first began with a line chart showing my academic performance and self-rating of confidence, but realized that I probably need to build something more abstract to match the human nature of the data. I began sketching with various shapes.</p>
+				<img alt="line chart of academic performance and self-confidence" src="img/fig27.png"/>
+				<img alt="abstract viz sketch" src="img/personal1.png"/>
+				<img alt="abstract viz sketch" src="img/personal2.png"/>
+				<img alt="abstract viz sketch" src="img/personal3.png"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+		</div>
+
+
+
+
+
+
+	</div>
+</section>
+</div>
+</body>
+</html>

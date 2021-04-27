@@ -1,0 +1,336 @@
+state	newspaper_id	newspaper_name	frequency	city	county	owner_id	owner_name	owner_type	total_circulation	days_published
+OH	14892	Ada Herald	W	Ada	Hardin	1513	Brown Publishing Company	NA	2,300	1
+OH	57607	Advance Reporter	W	Stryker	Williams	1726	Church Forest	NA	1,505	1
+OH	13565	Advertiser-Tribune	D	Tiffin	Seneca	4228	Ogden Newspapers	Private	10,516	7
+OH	10024	Advocate	D	Newark	Licking	2547	Gannett	Public	20,968	7
+OH	10037	Akron Beacon Journal	D	Akron	Summit	3356	Knight Ridder	Public	135,002	7
+OH	57360	Alive	W	Columbus	Franklin	1934	Crane, Sallly	NA	50,000	1
+OH	14964	Amherst News-Times	W	Oberlin	Lorain	2572	Gazette Newspapers (OH)	NA	2,329	1
+OH	14988	Antwerp Bee-Argus	W	Antwerp	Paulding	5350	Temple June & Sandra	NA	1,000	1
+OH	15000	Archbold Buckeye	W	Archbold	Fulton	5336	Taylor, Ross William	NA	3,200	1
+OH	10154	Ashland Times Gazette	D	Ashland	Ashland	2125	Dix Communications	NA	12,092	6
+OH	10167	Athens Messenger	D	Athens	Athens	1513	Brown Publishing Company	NA	10,111	6
+OH	15037	Athens News	W	Athens	Athens	3952	Mitchell, Bruce	NA	18,957	2
+OH	15046	Attica Hub	W	Attica	Seneca	1865	Cook, Deborah	NA	4,000	1
+OH	15056	Aurora Advocate	W	Kent	Portage	4612	Record Publishing LLC	NA	6,505	1
+OH	15061	Austintown Town Crier	W	Warren	Mahoning	4228	Ogden Newspapers	Private	65,800	1
+OH	15088	Barberton Herald	W	Barberton	Summit	4689	Richardson Publishing	NA	8,097	1
+OH	15089	Barnesville Enterprise	W	Barnesville	Belmont	2125	Dix Communications	NA	4,825	1
+OH	17886	Beacon	W	Port Clinton	Ottawa	4859	Schaffner Publications Inc	NA	14,500	1
+OH	10246	Beavercreek News-Current	D	Xenia	Greene	1513	Brown Publishing Company	NA	3,000	6
+OH	57291	Bedford Sun Banner	W	Bedford	Cuyahoga	5564	Urbancich, John	NA	3,748	1
+OH	57292	Bedford Times-Register	W	Bedford	Cuyahoga	2125	Dix Communications	NA	3,512	1
+OH	10260	Bellefontaine Examiner	D	Bellefontaine	Logan	3040	Hubbard Publishing Company	NA	9,200	6
+OH	14122	Bellevue Gazette	D	Bellevue	Huron	1280	Bellevue Gazette	NA	2,900	6
+OH	15145	Bellville Star and Tri-Forks Press	W	Bellville	Richland	3076	Hurt, Gary	NA	2,025	1
+OH	18724	Bethel Journal, The	W	Loveland	Clermont	1833	Community Press	NA	1,800	1
+OH	57303	Bexley News	W	Bexley	Franklin	5234	Suburban News Publications	NA	9,939	1
+OH	57305	Big Walnut News	W	Big Walnut	Delaware	5234	Suburban News Publications	NA	5,112	1
+OH	57306	Big Walnut This Week	W	Big Walnut	Delaware	1856	Consumer News Service Inc	NA	6,533	1
+OH	10309	Blade	D	Toledo	Lucas	1380	Block Communications Inc	NA	139,398	7
+OH	57308	Bloomville Gazette	W	Bloomville	Seneca	3713	Martin, Dawn	NA	383	1
+OH	18748	Bluffton News	W	Bluffton	Allen	2259	Edwards Tom	NA	2,900	1
+OH	15223	Boardman News	W	Boardman	Mahoning	2016	Darnell Jack	NA	4,750	1
+OH	14745	Boardman Town Crier	W	Warren	Mahoning	4228	Ogden Newspapers	Private	48,500	1
+OH	57316	Brooklyn Sun Journal	W	Brooklyn	Cuyahoga	1030	Advance Publications	Private	5,954	1
+OH	15317	Brookville Star	W	Brookville	Montgomery	2972	Hoffman, Jim	NA	6,200	1
+OH	18788	Brown County Press	W	Mount Orab	Brown	5259	Sun Group Newspapers	NA	16,300	1
+OH	15328	Brunswick Sun Times	W	Brunswick	Medina	1817	Comcorp Inc	NA	5,703	1
+OH	10409	Bryan Times	D	Bryan	Williams	1529	Bryan Publishing Company	NA	10,545	6
+OH	15332	Buckeye Lake Beacon	W	Buckeye Lake	Licking	4522	Prince Charles	NA	15,000	1
+OH	57667	Buckeye Review	W	Youngstown	Mahoning	1535	Buckeye Review Publishing	NA	5,283	1
+OH	18794	Budget	W	Sugarcreek	Tuscarawas	5107	Spector Sonia	NA	19,300	1
+OH	14732	Bulletin, The	W	Bedford	Cuyahoga	2125	Dix Communications	NA	8,000	1
+OH	15411	Canfield Town Crier	W	Warren	Mahoning	4228	Ogden Newspapers	Private	49,000	1
+OH	15501	Centerville-Bellbrook Times	W	Bellbrook; Centerville	Greene	1513	Brown Publishing Company	NA	22,500	1
+OH	15510	Chagrin Herald Sun	W	Chagrin Falls	Cuyahoga	5265	Sun Newspapers	NA	2,030	1
+OH	15511	Chagrin Valley Times	W	Chagrin Falls	Cuyahoga	2163	Douthit Communications Inc	NA	22,500	1
+OH	10601	Chillicothe Gazette	D	Chillicothe	Ross	2547	Gannett	Public	15,370	7
+OH	10609	Chronicle-Telegram	D	Elyria	Lorain	3583	Lorain County Printing & Publishing Co	NA	23,385	7
+OH	57339	Cincinnati Citybeat	W	Cincinnati	Hamilton	1394	Bockrath, Dan	NA	40,462	1
+OH	10614	Cincinnati Enquirer	D	Cincinnati	Hamilton	2547	Gannett	Public	183,051	7
+OH	55779	Cincinnati Herald	W	Cincinnati	Hamilton	4927	Sesh Communications	NA	16,000	1
+OH	90202	Cincinnati Post	D	Cincinnati	Hamilton	2352	EW Scripps	Public	57,543	6
+OH	18902	Clermont Sun	W	Batavia	Clermont	5259	Sun Group Newspapers	NA	3,000	1
+OH	15641	Cleveland Free Times	W	Cleveland	Cuyahoga	2359	Fabyan, Matt	NA	90,000	1
+OH	12834	Cleveland Plain Dealer The	D	Brooklyn	Cuyahoga	1030	Advance Publications	Private	354,309	7
+OH	90161	Cleveland Scene	W	Cleveland	Cuyahoga	4196	NT Media Inc	Private	50,000	1
+OH	18908	Clyde Enterprise, The	W	Clyde	Sandusky	2572	Gazette Newspapers (OH)	NA	4,100	1
+OH	57362	Columbus Call and Post	W	Columbus	Franklin	3025	House, Michael	NA	24,000	1
+OH	10696	Columbus Dispatch The	D	Columbus	Franklin	2119	Dispatch Printing Company	NA	251,045	7
+OH	15706	Community Common	W	Portsmouth	Scioto	1513	Brown Publishing Company	NA	40,000	2
+OH	15710	Community Journal Clermont	W	Loveland	Clermont	1833	Community Press	NA	25,000	1
+OH	15711	Community Journal North Clermont	W	Loveland	Clermont	1833	Community Press	NA	8,586	1
+OH	57496	Community Leader	W	Marietta	Washington	1821	Community Leader Publishing Inc	NA	5,300	1
+OH	18934	Community Post	W	Minster	Auglaize	3017	Horizon Publications	Private	1,500	1
+OH	57502	Community Press of Mason	W	Mason	Warren	3010	HomeTown Communications Network Inc	NA	11,419	1
+OH	57382	Continental News Review	W	Continental	Putnam	5157	Stateler, Nyle	NA	975	1
+OH	10739	Coshocton Tribune	D	Coshocton	Coshocton	2547	Gannett	Public	6,896	7
+OH	57405	County Register	W	Eaton	Preble	2831	Hardin, James	NA	14,000	1
+OH	11261	Courier	D	Findlay	Hancock	2418	Findlay Publishing Company	NA	22,144	6
+OH	14733	Courier	W	Conneaut	Ashtabula	2572	Gazette Newspapers (OH)	NA	2,342	1
+OH	10987	Crescent-News	D	Defiance	Defiance	2125	Dix Communications	NA	17,652	6
+OH	18967	Crestline Advocate	W	Crestline	Crawford	1951	Crestline Advocate Inc	NA	6,500	1
+OH	15816	Cuyahoga Falls News-Press	W	Kent	Summit	4612	Record Publishing LLC	NA	48,701	1
+OH	11466	Daily Advocate	D	Greenville	Darke	1513	Brown Publishing Company	NA	6,500	6
+OH	10807	Daily Chief-Union	D	Upper Sandusky	Wyandot	4600	Ray Barnes Newspapers Inc	NA	4,300	6
+OH	10834	Daily Globe	D	Shelby	Richland	2650	Gove Scott	NA	4,072	6
+OH	10849	Daily Jeffersonian	D	Cambridge	Guernsey	2125	Dix Communications	NA	12,719	6
+OH	13991	Daily Record	D	Wooster	Wayne	2125	Dix Communications	NA	22,202	7
+OH	10925	Daily Sentinel	D	Pomeroy	Meigs	2889	Heartland Publications LLC	NA	3,645	6
+OH	10932	Daily Standard	D	Celina	Mercer	5132	Standard Printing Co	NA	10,200	6
+OH	18984	Dalton Gazette and Kidron News	W	Dalton	Wayne	5911	Woodruff Francis	NA	1,200	1
+OH	57389	Dayton City Paper	W	Dayton	Montgomery	5954	Yesee Communications	NA	20,000	1
+OH	10975	Dayton Daily News	D	Franklin	Montgomery	1922	Cox Newspapers	Private	122,639	7
+OH	10995	Delaware Gazette	D	Delaware	Delaware	1513	Brown Publishing Company	NA	8,500	6
+OH	15884	Delhi Press	W	Cincinnati	Hamilton	1833	Community Press	NA	4,500	1
+OH	11000	Delphos Daily Herald	D	Delphos	Allen	2069	Delphos Herald Inc	NA	3,756	6
+OH	19008	Delta Atlas	W	Delta	Fulton	3638	Mack Thomas	NA	2,054	1
+OH	19017	Deshler Flag	W	Deshler	Henry	3890	Mickens Inc	NA	1,300	1
+OH	15951	Dresden Transcript	W	Dresden	Muskingum	3515	Lewis Al	NA	5,600	1
+OH	57401	Dublin News	W	Dublin	Franklin	5234	Suburban News Publications	NA	24,650	1
+OH	11927	Eagle-Gazette Media	D	Lancaster	Fairfield	2547	Gannett	Public	14,195	7
+OH	19051	Early Bird	W	Greenville	Darke	1205	Ball Publishing Company	NA	27,227	1
+OH	16013	Eastern Hills Journal	W	Loveland	Hamilton	1833	Community Press	NA	11,146	1
+OH	19060	Eastside Messenger, The	W	Columbus	Franklin	2020	Daubel, Philip	NA	43,052	1
+OH	19067	Edgerton Earth	W	Edgerton	Williams	5303	SWW Publishing Ltd	NA	1,500	1
+OH	19069	Edon Commercial, The	W	Edon	Williams	1726	Church Forest	NA	958	1
+OH	16094	Englewood Independent	W	Vandalia	Montgomery	5438	Times Community Newspapers of Grtr Dayton	NA	8,900	1
+OH	57412	Euclid Sun Journal	W	Euclid	Cuyahoga	1030	Advance Publications	Private	8,300	1
+OH	14078	Evening Leader The	D	Saint Marys	Auglaize	3017	Horizon Publications	Private	5,000	6
+OH	14734	Exponent, The	W	Oak Harbor	Ottawa	2572	Gazette Newspapers (OH)	NA	2,000	1
+OH	57458	Extra	W	Ironton	Lawrence	1409	Boone Newspapers	Private	8,900	1
+OH	11228	Fairborn Daily Herald	D	Xenia	Greene	1513	Brown Publishing Company	NA	2,000	6
+OH	57414	Fairfield Echo	W	Fairfield	Butler	1922	Cox Newspapers	Private	25,000	1
+OH	15001	Farmland News	W	Archbold	Fulton	2727	Grisez Jed	NA	6,762	1
+OH	57415	Fayette Review	W	Fayette	Fulton	4489	Potter, Yvonne	NA	1,120	1
+OH	16197	Forest Hills Journal	W	Cincinnati	Hamilton	1833	Community Press	NA	2,300	1
+OH	16232	Franklin Chronicle	W	Miamisburg	Warren	3921	Miller Publishing Company	NA	12,000	1
+OH	19157	Free Press Standard	W	Carrollton	Carroll	1642	Carrollton Publishing	NA	6,800	1
+OH	16267	Fulton County Expositor	W	Wauseon	Fulton	2573	Gazette Publishing Co	NA	4,236	1
+OH	14073	Galion Inquirer	D	Galion	Crawford	2960	Hirt Media Co	NA	3,800	6
+OH	11349	Gallipolis Daily Tribune	D	Gallipolis	Gallia	2889	Heartland Publications LLC	NA	4,635	7
+OH	57427	Garfield-Maple Sun	W	Garfield	Lake	1030	Advance Publications	Private	8,000	1
+OH	16302	Gateway News	W	Streetsboro	Portage	4612	Record Publishing LLC	NA	5,453	1
+OH	12208	Gazette	D	Medina	Medina	3583	Lorain County Printing & Publishing Co	NA	15,000	6
+OH	14736	Gazette	W	Jefferson	Ashtabula	1513	Brown Publishing Company	NA	3,951	1
+OH	16310	Geauga County Maple Leaf	W	Chardon	Geauga	3273	Karlovec, Jeff	NA	3,500	1
+OH	19185	Germantown Press	W	Miamisburg	Montgomery	3921	Miller Publishing Company	NA	2,700	1
+OH	57432	Grandview ThisWeek	W	Grandview	Hamilton	1856	Consumer News Service Inc	NA	5,888	1
+OH	14737	Granville Sentinel The	W	Newark	Licking	2547	Gannett	Public	2,500	1
+OH	16437	Greenwich Enterprise Review	W	Willard	Huron	4904	SDG Newsgroup	NA	14,200	1
+OH	57441	Grove City News	W	Grove City	Franklin	1856	Consumer News Service Inc	NA	10,622	1
+OH	16515	Harrison News-Herald	W	Cadiz	Hamilton	4867	Schloss Media Inc.	NA	6,000	1
+OH	16516	Harrison Press	W	Harrison	Hamilton	2069	Delphos Herald Inc	NA	5,000	1
+OH	19266	Hartville News	W	Hartville	Stark	3361	Knowles Press Inc.	NA	3,000	1
+OH	16539	Heath News	W	Heath	Licking	2890	Heartland Communications	NA	5,000	1
+OH	10618	Herald	D	Circleville	Pickaway	1513	Brown Publishing Company	NA	6,251	6
+OH	11560	Herald-Star	D	Steubenville	Jefferson	4228	Ogden Newspapers	Private	14,435	7
+OH	57450	Hilliard Northwest News	W	Hilliard	Franklin	5234	Suburban News Publications	NA	26,800	1
+OH	13605	Hillsboro Times-Gazette	D	Hillsboro	Highland	1513	Brown Publishing Company	NA	4,400	6
+OH	16600	Hilltop Press	W	Cincinnati	Hamilton	1833	Community Press	NA	15,330	1
+OH	19324	Homes County Hub, The	W	Millersburg	Holmes	5786	Whister Daily Record	NA	4,408	1
+OH	14738	Hometown Journal	W	Struthers	Mahoning	1200	Baker, Shirley	NA	4,000	1
+OH	16649	Huber Heights Courier	W	Vandalia	Montgomery	5438	Times Community Newspapers of Grtr Dayton	NA	9,700	1
+OH	16651	Hudson Hub-Times	W	Kent	Summit	4612	Record Publishing LLC	NA	10,300	2
+OH	12182	Independent The	D	Massillon	Stark	1878	Copley Press Inc	NA	12,863	7
+OH	57457	Indian Hill Journal	W	Indian Hill	Hamilton	3010	HomeTown Communications Network Inc	NA	2,300	1
+OH	11727	Ironton Tribune	D	Ironton	Lawrence	1409	Boone Newspapers	Private	6,300	6
+OH	19391	Journal and Noble County Leader The	W	Caldwell	Noble	2337	Evans, David	NA	5,082	1
+OH	19395	Journal News	W	Spencerville	Allen	1271	Beebe, Richard	NA	2,080	1
+OH	11506	JournalNews	D	Hamilton	Butler	1922	Cox Newspapers	Private	21,649	7
+OH	14077	Kenton Times	D	Kenton	Hardin	4600	Ray Barnes Newspapers Inc	NA	7,000	6
+OH	16829	Kettering-Oakwood Times	W	Kettering	Montgomery	5438	Times Community Newspapers of Grtr Dayton	NA	24,700	1
+OH	16855	Knox County Citizen	W	Fredericktown	Knox	2961	Hirt Publishing Co Inc	NA	1,260	1
+OH	57468	Lakewood Sun Post	W	Lakewood	Cuyahoga	1030	Advance Publications	Private	7,804	1
+OH	17333	Leader-Enterprise The	W	Montpelier	Williams	1529	Bryan Publishing Company	NA	1,555	1
+OH	16973	Leipsic Messenger	W	Leipsic	Putnam	3890	Mickens Inc	NA	1,300	1
+OH	19472	Lewisburg Leader	W	West Alexandria	Preble	4975	Shortes Sam	NA	3,500	1
+OH	19476	Liberty Press	W	Liberty Center	Henry	3890	Mickens Inc	NA	1,300	3
+OH	12013	Lima News	D	Lima	Allen	2504	Freedom Communications	NA	34,148	7
+OH	12048	Logan Daily News	D	Logan	Hocking	1513	Brown Publishing Company	NA	4,230	6
+OH	19508	Lorain County Times, The	W	Lorain	Lorain	2649	Gottschalk, E.J.	NA	1,250	1
+OH	19510	Loudonville Times	W	Loudonville	Ashland	2125	Dix Communications	NA	2,100	1
+OH	19513	Louisville Herald	W	Louisville City	Stark	1744	Clapper Frank	NA	3,000	1
+OH	17059	Loveland Herald	W	Loveland	Clermont	1833	Community Press	NA	2,986	1
+OH	19521	Madison Messenger	W	Columbus	Madison	2020	Daubel, Philip	NA	13,006	1
+OH	12111	Madison Press	D	London	Madison	1513	Brown Publishing Company	NA	6,000	5
+OH	19538	Manchester Signal The	W	Manchester	Adams	5921	Woolard William	NA	5,350	1
+OH	57494	Maple Heights Press	W	Maple Heights	Cuyahoga	2125	Dix Communications	NA	1,795	1
+OH	12149	Marietta Times	D	Marietta	Washington	4228	Ogden Newspapers	Private	11,089	6
+OH	12154	Marion Star	D	Marion	Marion	2547	Gannett	Public	13,695	7
+OH	12176	Marysville Journal-Tribune	D	Marysville	Union	1276	Behrens Dan	NA	6,500	6
+OH	19573	Mechanicsburg Telegram	W	Urbana	Champaign	1513	Brown Publishing Company	NA	500	1
+OH	14443	Medina Sun	W	Medina	Medina	5265	Sun Newspapers	NA	14,947	1
+OH	57358	Mercer County Chronicle	W	Coldwater	Mercer	2069	Delphos Herald Inc	NA	2,400	1
+OH	17237	Miamisburg News	W	Miamisburg	Montgomery	3921	Miller Publishing Company	NA	5,000	1
+OH	12262	Middletown Journal	D	Middletown	Butler	1922	Cox Newspapers	Private	19,846	7
+OH	17257	Milford-Miami Advertiser	W	Milford	Clermont	1833	Community Press	NA	4,432	1
+OH	17294	Mohawk Leader	W	Carey	Wyandot	5971	Zender Steve	NA	4,000	1
+OH	17308	Monroe County Beacon	W	Woodsfield	Monroe	2069	Delphos Herald Inc	NA	4,950	1
+OH	57513	Monroe Times/Today's Express	W	Middletown	Butler	5838	Williams, Michael	NA	4,250	1
+OH	57522	Montrose Sun	W	Montrose	Summit	1030	Advance Publications	Private	11,556	1
+OH	17345	Morgan County Herald	W	McConnelsville	Morgan	4600	Ray Barnes Newspapers Inc	NA	5,034	1
+OH	12066	Morning Journal	D	Lorain	Lorain	3245	Journal Register Co.	Public	30,895	7
+OH	12351	Morning Journal	D	Lisbon	Columbiana	4228	Ogden Newspapers	Private	12,799	7
+OH	19643	Morrow County Sentinel	W	Mount Gilead	Morrow	2961	Hirt Publishing Co Inc	NA	4,340	1
+OH	12376	Mount Vernon News	D	Mount Vernon	Knox	4537	Progressive Communications Corp	NA	9,414	6
+OH	57529	New Carlisle Sun	W	New Carlisle	Clark	1513	Brown Publishing Company	NA	3,500	1
+OH	17449	New Concord Area Leader	W	New Concord	Muskingum	2125	Dix Communications	NA	1,100	1
+OH	19683	New Lebanon Advertiser, The	W	New Lebanon	Montgomery	5542	Twin Valley Publications Inc.	NA	11,000	1
+OH	17459	New London Record	W	New London	Huron	4904	SDG Newsgroup	NA	2,200	1
+OH	17468	New Washington Herald	W	New Washington	Crawford	5223	Stump David	NA	1,500	1
+OH	17474	Newcomerstown News	W	Newcomerstown	Tuscarawas	2125	Dix Communications	NA	3,323	1
+OH	17958	News	W	Andover	Ashtabula	2572	Gazette Newspapers (OH)	NA	2,000	1
+OH	14441	News Democrat	W	Georgetown	Brown	1513	Brown Publishing Company	NA	30,250	1
+OH	12138	News Journal	D	Mansfield	Richland	2547	Gannett	Public	31,345	7
+OH	14740	News Leader	W	Northfield	Summit	2125	Dix Communications	NA	12,000	1
+OH	11908	News-Herald The	D	Willoughby	Lake	3245	Journal Register Co.	Public	45,839	7
+OH	11328	News-Messenger The	D	Fremont	Sandusky	2547	Gannett	Public	13,143	6
+OH	19711	News-Tribune The	W	Hicksville	Defiance	1558	Burth MaryAnn	NA	2,400	1
+OH	57552	Nordonia Hills Sun	W	Northfield	Summit	1030	Advance Publications	Private	1,494	1
+OH	19742	North Baltimore News	W	North Baltimore	Wood	2259	Edwards Tom	NA	1,200	1
+OH	19892	North Ridgeville Press	W	Avon Lake	Lorain	2163	Douthit Communications Inc	NA	5,200	1
+OH	17573	Northeast Suburban Life	W	Blue Ash	Hamilton	1833	Community Press	NA	4,756	1
+OH	57542	Northland ThisWeek	W	North Columbus	Franklin	1856	Consumer News Service Inc	NA	18,082	1
+OH	14729	Northwest Press	W	Cincinnati	Hamilton	1833	Community Press	NA	8,255	1
+OH	12610	Northwest Signal	D	Napoleon	Henry	1529	Bryan Publishing Company	NA	5,600	5
+OH	12614	Norwalk Reflector	D	Norwalk	Huron	4835	Sandusky Newspapers Inc	NA	8,633	6
+OH	57557	Oakwood Register	W	Oakwood	Montgomery	5877	Winkler, Dolores	NA	7,075	1
+OH	17637	Oberlin News-Tribune	W	Oberlin	Lorain	2572	Gazette Newspapers (OH)	NA	2,200	1
+OH	57367	Other Paper	W	Columbus	Franklin	1775	CM Media Inc	NA	51,612	1
+OH	19802	Oxford Press	W	Oxford	Butler	1922	Cox Newspapers	Private	4,500	1
+OH	17753	Parma Sun Post	W	Berea	Cuyahoga	5265	Sun Newspapers	NA	23,208	1
+OH	90193	Pataskala Post	W	Pataskala	Licking	2890	Heartland Communications	NA	11,159	1
+OH	19815	Pataskala Standard	W	Newark	Licking	2547	Gannett	Public	4,000	1
+OH	17762	Paulding Progress	W	Paulding	Paulding	2069	Delphos Herald Inc	NA	4,100	1
+OH	17798	Perry County Tribune	W	New Lexington	Perry	2848	Hart, Gary	NA	4,100	1
+OH	17802	Perrysburg Messenger-Journal	W	Perrysburg	Wood	1547	Bunker Hill Publications	NA	14,000	1
+OH	19712	Pike County News Watchman	W	Waverly	Pike	1513	Brown Publishing Company	NA	5,200	2
+OH	12827	Piqua Daily Call	D	Piqua	Miami	1513	Brown Publishing Company	NA	6,123	6
+OH	17847	Plain City Advocate	W	London	Madison	1513	Brown Publishing Company	NA	3,100	1
+OH	17871	Poland Town Crier	W	Warren	Mahoning	4228	Ogden Newspapers	Private	48,500	1
+OH	12857	Port Clinton News-Herald	D	Fremont	Ottawa	2547	Gannett	Public	5,865	6
+OH	12873	Portsmouth Daily Times	D	Portsmouth	Scioto	2889	Heartland Publications LLC	NA	13,881	7
+OH	57579	Powell ThisWeek	W	Powell	Delaware	1856	Consumer News Service Inc	NA	13,331	1
+OH	14741	Press	W	Avon Lake	Lorain	2163	Douthit Communications Inc	NA	8,500	1
+OH	19895	Press-News The	W	Minerva	Stark	3627	Lyon Publishing Inc	NA	2,200	1
+OH	57346	Price Hills Press	W	Cincinnati	Hamilton	3010	HomeTown Communications Network Inc	NA	6,400	1
+OH	19903	Progressor Times	W	Carey	Wyandot	5971	Zender Steve	NA	4,000	1
+OH	57473	Pulse-Journal	W	Liberty	Trumbull	1922	Cox Newspapers	Private	34,500	1
+OH	17955	Putnam County Sentinel	W	Ottawa	Putnam	2961	Hirt Publishing Co Inc	NA	18,200	1
+OH	17956	Putnam County Vidette	W	Ottawa	Putnam	2961	Hirt Publishing Co Inc	NA	1,150	1
+OH	12957	Record-Courier	D	Kent	Portage	4612	Record Publishing LLC	NA	18,359	7
+OH	12962	Record-Herald	D	Washington Court House	Fayette	1513	Brown Publishing Company	NA	6,000	6
+OH	14440	Register-Herald	W	Eaton	Preble	1513	Brown Publishing Company	NA	34,000	2
+OH	10476	Repository The	D	Canton	Stark	1878	Copley Press Inc	NA	65,598	7
+OH	10067	Review	D	Alliance	Stark	2125	Dix Communications	NA	11,654	6
+OH	13009	Review	D	East Liverpool	Columbiana	4228	Ogden Newspapers	Private	9,912	7
+OH	14070	Review Times The	D	Fostoria	Seneca	2418	Findlay Publishing Company	NA	4,200	6
+OH	57582	Reynoldsburg News	W	Reynoldsburg	Franklin	5234	Suburban News Publications	NA	14,155	1
+OH	19961	Richwood Gazette	W	Marysville	Union	3731	Marysville Newspapers Inc	NA	2,700	1
+OH	18061	Ripley Bee	W	Georgetown	Brown	1513	Brown Publishing Company	NA	3,000	1
+OH	19989	Rossford Record Journal	W	Rossford	Wood	5741	Welch Publishing Co	NA	2,133	2
+OH	18123	Rural-Urban Record	W	Columbia Station	Lorain	2976	Hoise, Leonard	NA	19,359	1
+OH	13095	Salem News	D	Salem	Columbiana	4228	Ogden Newspapers	Private	6,829	7
+OH	13136	Sandusky Register	D	Sandusky	Erie	4835	Sandusky Newspapers Inc	NA	23,213	7
+OH	20024	Scioto Voice	W	Wheelersburg	Scioto	1071	Allard Debbie	NA	3,000	1
+OH	10350	Sentinel-Tribune	D	Bowling Green	Wood	4923	Sentinel Company	NA	11,615	6
+OH	57314	Shelby County Review	W	Botkins	Shelby	3017	Horizon Publications	Private	8,872	1
+OH	13238	Sidney Daily News	D	Sidney	Shelby	1513	Brown Publishing Company	NA	13,200	6
+OH	57594	Solon Herald Sun	W	Solon	Cuyahoga	1030	Advance Publications	Private	2,728	1
+OH	18307	Solon Times	W	Chagrin Falls	Cuyahoga	2163	Douthit Communications Inc	NA	4,000	1
+OH	20081	Southeast Messenger, The	W	S.E. Columbus	Franklin	2020	Daubel, Philip	NA	20,000	1
+OH	57369	Southside ThisWeek	W	Columbus	Franklin	1856	Consumer News Service Inc	NA	20,362	1
+OH	18378	Southwest Messenger, The	W	Columbus	Franklin	2020	Daubel, Philip	NA	20,174	1
+OH	57597	Springboro Sun	W	Springboro	Warren	1513	Brown Publishing Company	NA	-	1
+OH	13333	Springfield News-Sun	D	Springfield	Clark	1922	Cox Newspapers	Private	28,929	7
+OH	20107	Star Press, The	W	Springboro	Warren	3921	Miller Publishing Company	NA	2,000	1
+OH	13373	Star-Beacon	D	Ashtabula	Ashtabula	1826	Community Newspaper Holdings Inc (CNHI)	Investment	18,747	7
+OH	20111	Star-Republican	W	Blanchester	Clinton	1513	Brown Publishing Company	NA	23,000	1
+OH	18493	Stow Sentry	W	Kent	Summit	4612	Record Publishing LLC	NA	15,000	1
+OH	14730	Suburban Life	W	Deer Park	Hamilton	1833	Community Press	NA	7,402	1
+OH	18512	Suburban/Metro Press	W	Millbury	Wood	2163	Douthit Communications Inc	NA	38,000	1
+OH	20129	Suburbanite The	W	Akron	Summit	1878	Copley Press Inc	NA	33,800	1
+OH	57553	Sun Banner Pride	W	Norton	Summit	1030	Advance Publications	Private	2,652	1
+OH	20136	Sun Courier, The	W	Cleveland	Cuyahoga	5265	Sun Newspapers	NA	7,000	1
+OH	20138	Sun Messenger, The	W	Beachwood	Cuyahoga	5265	Sun Newspapers	NA	13,171	1
+OH	57631	Sun News	W	Cleveland	Cuyahoga	1030	Advance Publications	Private	137,284	1
+OH	18541	Sun Post Herald	W	North Olmsted	Cuyahoga	1030	Advance Publications	Private	22,609	1
+OH	14435	Sun Press, The	W	Beachwood	Cuyahoga	5265	Sun Newspapers	NA	16,500	1
+OH	57403	Sun Scoop Journal	W	East Cleveland	Cuyahoga	1030	Advance Publications	Private	3,760	1
+OH	57604	Sun Star	W	Strongsville	Cuyahoga	1030	Advance Publications	Private	11,000	1
+OH	14743	Sun, The	W	North Olmsted	Cuyahoga	5265	Sun Newspapers	NA	3,300	1
+OH	20145	Sunbury News	W	Delaware	Delaware	1513	Brown Publishing Company	NA	8,000	1
+OH	90082	Swanton Enterprise	W	Wauseon	Fulton	2573	Gazette Publishing Co	NA	1,425	1
+OH	18585	Tallmadge Express	W	Kent	Summit	4612	Record Publishing LLC	NA	21,100	1
+OH	20355	Telegram	W	Jackson	Jackson	5347	Telegram Publishing Co. Inc.	NA	6,717	1
+OH	13480	Telegraph-Forum	D	Mansfield	Crawford	2547	Gannett	Public	6,865	6
+OH	14436	The News Sun	W	Berea	Cuyahoga	5265	Sun Newspapers	NA	15,500	1
+OH	15180	ThisWeek Bexley News	W	Lewis Center	Franklin	1856	Consumer News Service Inc	NA	9,952	1
+OH	57356	ThisWeek Clintonville	W	Clintonville	Franklin	1856	Consumer News Service Inc	NA	13,501	1
+OH	18755	ThisWeek Clintonville Booster	W	Lewis Center	Franklin	5234	Suburban News Publications	NA	17,439	1
+OH	15880	ThisWeek Delaware News	W	Lewis Center	Delaware	2119	Dispatch Printing Company	NA	19,000	1
+OH	15955	ThisWeek Dublin Villager	W	Lewis Center	Franklin	1856	Consumer News Service Inc	NA	21,436	1
+OH	16324	ThisWeek German Village Gazette	W	Lewis Center	Franklin	5234	Suburban News Publications	NA	4,524	1
+OH	16453	ThisWeek Grove City Record	W	Lewis Center	Franklin	2119	Dispatch Printing Company	NA	7,093	1
+OH	16591	ThisWeek Hilliard Northwest News	W	Lewis Center	Franklin	2119	Dispatch Printing Company	NA	24,624	1
+OH	16781	ThisWeek Johnstown Independent	W	Lewis Center	Licking	1856	Consumer News Service Inc	NA	2,200	1
+OH	17442	ThisWeek New Albany News	W	Lewis Center	Franklin	5239	Suburban News Publications	NA	5,000	1
+OH	17598	ThisWeek Northwest News	W	Lewis Center	Franklin	5234	Suburban News Publications	NA	6,800	1
+OH	17659	ThisWeek Olentangy Valley News	W	Lewis Center	Delaware	5234	Suburban News Publications	NA	16,105	1
+OH	57568	ThisWeek Pickerington	W	Pickerington	Fairfield	1856	Consumer News Service Inc	NA	12,723	1
+OH	19845	ThisWeek Pickerington Times-Sun	W	Lewis Center	Fairfield	5234	Suburban News Publications	NA	22,654	1
+OH	18038	ThisWeek Reynoldsburg News	W	Lewis Center	Franklin	1856	Consumer News Service Inc	NA	13,739	1
+OH	18093	ThisWeek Rocky Fork Enterprise	W	Lewis Center	Franklin	1856	Consumer News Service Inc	NA	15,090	1
+OH	20526	ThisWeek Tri-Village News	W	Lewis Center	Franklin	5234	Suburban News Publications	NA	22,694	1
+OH	20821	ThisWeek Westerville News and Public Opinion	W	Lewis Center	Franklin	1856	Consumer News Service Inc	NA	23,678	1
+OH	20877	ThisWeek Whitehall News	W	Lewis Center	Franklin	5234	Suburban News Publications	NA	22,694	1
+OH	20965	ThisWeek Worthington News	W	Lewis Center	Franklin	1856	Consumer News Service Inc	NA	19,885	1
+OH	57327	Times	W	Canal Winchester	Franklin	5239	Suburban News Publications	NA	12,000	1
+OH	13601	Times Bulletin The	D	Van Wert	Van Wert	1513	Brown Publishing Company	NA	7,000	6
+OH	57333	Times Courier	W	Chagrin	Cuyahoga	2163	Douthit Communications Inc	NA	11,000	1
+OH	14442	Times Journal	W	Jackson	Jackson	1513	Brown Publishing Company	NA	22,900	3
+OH	14014	Times Recorder	D	Zanesville	Muskingum	2547	Gannett	Public	20,428	7
+OH	12171	Times-Leader	D	Martins Ferry	Belmont	4228	Ogden Newspapers	Private	17,008	6
+OH	12462	Times-Reporter The	D	New Philadelphia	Tuscarawas	1878	Copley Press Inc	NA	23,328	7
+OH	57619	Toledo City Paper	W	Toledo	Lucas	1025	Adams Street Publishing	NA	36,000	1
+OH	57621	Toledo Journal	W	Toledo	Lucas	5193	Stewart, Sandra	NA	22,500	1
+OH	13649	Tribune Chronicle	D	Warren	Trumbull	4228	Ogden Newspapers	Private	32,938	7
+OH	20530	Tribune Courier and Madison Tribune	W	Ontario	Richland	5222	Stumbo Frank	NA	2,835	1
+OH	14746	Tribune, The	W	Mount Sterling	Madison	1513	Brown Publishing Company	NA	7,059	1
+OH	14750	Tri-County Press	W	Cincinnati	Hamilton	1833	Community Press	NA	9,818	1
+OH	13671	Troy Daily News	D	Troy	Miami	1513	Brown Publishing Company	NA	9,277	7
+OH	20241	Twin Valley News	W	West Alexandria	Preble	5542	Twin Valley Publications Inc.	NA	1,000	1
+OH	57625	Twinsburg Sun	W	Twinsburg	Summit	1030	Advance Publications	Private	1,231	1
+OH	57626	Upper Arlington News	W	Upper Arlington	Franklin	5234	Suburban News Publications	NA	29,000	1
+OH	57627	Upper Arlington ThisWeek	W	Upper Arlington	Franklin	1856	Consumer News Service Inc	NA	21,290	1
+OH	13712	Urbana Daily Citizen	D	Urbana	Champaign	1513	Brown Publishing Company	NA	6,211	6
+OH	20253	Utica Herald	W	Utica	Licking	2890	Heartland Communications	NA	23,000	1
+OH	57560	Valley News	W	Orwell	Ashtabula	2572	Gazette Newspapers (OH)	NA	1,252	1
+OH	20624	Vandalia Drummer News	W	Vandalia	Montgomery	5438	Times Community Newspapers of Grtr Dayton	NA	4,600	1
+OH	20631	Vermilion Photojournal	W	Vermilion	Lorain	2163	Douthit Communications Inc	NA	3,150	1
+OH	20277	Versailles Policy	W	Versailles	Darke	3438	Langston Graphics	NA	2,231	1
+OH	57323	Village Reporter	W	Byesville	Guernsey	2125	Dix Communications	NA	1,400	1
+OH	13779	Vindicator	D	Youngstown	Mahoning	5625	Vindicator Printing Company	NA	66,487	7
+OH	20654	Vinton County Courier	W	McArthur	Vinton	1513	Brown Publishing Company	NA	2,500	1
+OH	13805	Wapakoneta Daily News	D	Wapakoneta	Auglaize	3017	Horizon Publications	Private	4,200	6
+OH	57337	Weekly Mail-Journal-Messenger	W	Chardon	Geauga	1420	Bostwick, Patrick	NA	21,000	1
+OH	20475	Weekly Record Herald	W	Troy	Miami	5438	Times Community Newspapers of Grtr Dayton	NA	3,207	1
+OH	20760	Wellington Enterprise	W	Oberlin	Lorain	1280	Bellevue Gazette	NA	20,800	1
+OH	57429	West Geauga Sun	W	Geauga	Geauga	1030	Advance Publications	Private	12,218	1
+OH	20783	West Life	W	Avon Lake	Cuyahoga	2163	Douthit Communications Inc	NA	11,000	1
+OH	57646	West Milton Record	W	West Milton	Miami	1513	Brown Publishing Company	NA	1,200	1
+OH	20800	West Side Sun News	W	North Olmsted	Cuyahoga	5265	Sun Newspapers	NA	14,198	1
+OH	20805	West Toledo Herald	W	Toledo	Lucas	2069	Delphos Herald Inc	NA	1,588	1
+OH	20813	Western Hills Press	W	Cincinnati	Hamilton	1833	Community Press	NA	21,468	1
+OH	14748	Western StarThe	W	Lebanon	Warren	1922	Cox Newspapers	Private	35,000	2
+OH	20827	Westlaker Times	W	Westlake	Cuyahoga	2649	Gottschalk, E.J.	NA	2,230	1
+OH	57651	Westland News	W	Westland	Morgan	5234	Suburban News Publications	NA	9,972	1
+OH	20376	Westside Messenger	W	Columbus	Franklin	2020	Daubel, Philip	NA	43,247	1
+OH	57379	Westside ThisWeek	W	Columbus	Franklin	1856	Consumer News Service Inc	NA	21,206	1
+OH	20892	Willard Times-Junction	W	Willard	Huron	4904	SDG Newsgroup	NA	17,900	2
+OH	17814	Willshire Photo Star	W	Willshire	Van Wert	1548	Bunner Judith	NA	8,300	1
+OH	13946	Wilmington News Journal	D	Wilmington	Clinton	1513	Brown Publishing Company	NA	7,000	6
+OH	14001	Xenia Daily Gazette	D	Xenia	Greene	1513	Brown Publishing Company	NA	6,124	6
+OH	20978	Yellow Springs News	W	Yellow Springs	Greene	5951	Yellow Springs News Inc.	NA	1,880	1

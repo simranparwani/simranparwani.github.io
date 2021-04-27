@@ -50,7 +50,7 @@ let data = {
 let width = window.innerWidth*.6;
 let height = window.innerHeight * .8;
 let colors = ["FFF","#6B9080", "#6A5B6E", "#F46036", "#F0C62D"]
-let labels = ["Labels","Code", "Data Journalism", "Social Impact", "Visualization"]
+let labels = ["Labels","Code", "Data Activism", "Social Impact", "Visualization"]
 
 createChart(data);
 

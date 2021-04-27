@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bubble Chart</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400&family=Oswald:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="ISO-8859-1" />
+    <script
+      src="https://kit.fontawesome.com/3204dc93a7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-array.v2.min.js"></script>
+
+    <script src="https://unpkg.com/topojson@3"></script>
+  </head>
+  <body>
+    
+
+    <div id="container">
+      
+      
+
+
+    <div id="bubbleContainer">
+      <div id="leftBubble"></div>
+      <div id="rightBubble">
+        <div id="bubbleSliderContainer">
+          <input
+            type="range"
+            min="0"
+            max="3"
+            value="0"
+            step="1"
+            class="slider"
+            id="yearBubbleInput"
+          />
+          <p class="caption2" id="yearBubble"></p>
+        </div>
+
+        <div id="legendBubbleContainer">
+          <p class="bubble-text">
+            Each <strong style="color:#C0876D;">dot</strong> represents a
+            newspaper. <br /><br />Each
+            <strong style="color:#C0876D;">cluster </strong>represents an
+            owner.<br /><br />The
+            <strong style="color:#C0876D;">cluster color</strong> represents the
+            number of newspapers that owner owns.
+          </p>
+        </div>
+
+        <div class="bubbleLegend">
+          <ul id="legend-row2">
+            
+            <li id="legend2">
+              <span id="circle2" class="leg5" style="background: #C0876D"></span
+              >30+
+            </li>
+            <br />
+            <li id="legend2">
+              <span id="circle2" class="leg4" style="background: #A6D49F"></span
+              >20-30
+            </li>
+            <br />
+            <li id="legend2">
+              <span id="circle2" class="leg3" style="background: #AA3939"></span
+              >10-20
+            </li>
+            <br />
+            <li id="legend2">
+              <span id="circle2" class="leg2" style="background: #E9B872"></span
+              >5-10
+            </li>
+            <br />
+            <li id="legend2">
+              <span id="circle2" class="leg1" style="background: #90A9B7"></span
+              >2-4
+            </li>
+            <br />
+            <li id="legend2">
+              <span id="circle2" class="leg1" style="background: #654236"></span
+              >1
+            </li>
+            <br />
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+    </div>
+  </body>
+</html>
