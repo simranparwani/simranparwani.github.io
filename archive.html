@@ -52,7 +52,10 @@
 		        <a class="nav-link" href="/paper.html">Reflection</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link selected" href="/archive.html">Archive</a>
+		        <a class="nav-link selected" href="/archive.html">Documentation</a>
+		      </li>   
+		      <li class="nav-item">
+		        <a class="nav-link" href="/notes.html">Notes</a>
 		      </li>     
 		    </ul>
 		  </div>  
@@ -64,7 +67,7 @@
 <section id="piece1">
 	<div class="row">
 		<div class="col-md-8">
-			<h3 class="highlight">Piece 1: Documentation</h3>
+			<h3 id="doc1" class="highlight">Piece 1: Documentation</h3>
 			<h5>Visualization 1: Dot Chart</h5>
 			<p>I wanted to compare prices at the NYUAD Convenience Store with those at nearby grocery regions. Usually to compare quantities, one would do a grouped column chart where each group would represent a product and each bar could represent a different grocery brand. However, given the large sample size and the need to compare across groups, I found myself sketching a dot chart when brainstorming.</p>
 		</div>
@@ -118,7 +121,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-8">
-				<h3 class="highlight">Piece 2: Documentation</h3>
+				<h3 id="doc2" class="highlight">Piece 2: Documentation</h3>
 				<h5>Visualization 1: Bar Graph</h5>
 				<p>I struggled with labelling the legend on this...one group is cross-listings only from other divisions and one group is all cross-listings. Color testing was successful for this palette.</p>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/YkYX2kkYn7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -151,7 +154,7 @@
 				<img alt="gif showing P5.js" src="img/fig14.gif"/>
 				<p>Code can be found <a href="https://glitch.com/edit/#!/most-flexible-majors">here</a></p>
 
-				<h3 class="highlight">Piece 3: Documentation</h3>
+				<h3 id="doc3" class="highlight">Piece 3: Documentation</h3>
 				<h5>Visualization 1: Chloropleth Map</h5>
 				<p>I wanted to start with the geographic distribution of the degrees to show the concentration of institutions from the Global North and start broadly. One thing I questioned was whether to make the legend scale esponsive depending on the subset examined. For instance, should the scale change depending on what is clicked on the filter, allowing for more specific insight by section? I decided to keep the visualization with the same maximum regardless of the subset examined just for accuracy in comparison.</p>
 				<div class="flourish-embed flourish-map" data-src="visualisation/5362207"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
@@ -171,7 +174,7 @@
 				<img alt="hi-fi prototype of treemap ordered alphabetically" src="img/tree4.png"/>
 				<div class="flourish-embed flourish-hierarchy" data-src="visualisation/5401668"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-				<h3 class="highlight">Piece 4: Documentation</h3>
+				<h3 id="doc4" class="highlight">Piece 4: Documentation</h3>
 				<h5>Visualization 1: Packed Circles Diagram</h5>
 				<p>The first visualization aimed to represent the most frequently occurring words in titles of Gazelle articles. Representing text visually is something I find tricky. I find word clouds a bit tacky, but they are the usual go-to for showing the most frequently occurring text. In a previous course project, I used a simple bubble chart to visualize the most followed Twitter accounts of a subset I was studying where the size of the bubble related to how followed the account was. I thought a similar chart would be great for this case; two levels would be needed to represent the semester and the words that most frequently appeared that semester...a packed circles diagram. Originally, we did not exclude any words from the visualization; however, many of the frequent words like "NYUAD" were consistent in every semester, making it difficult to convey any meaning semester to semester. Thus, we decided to remove the words that appeared in every semester as well as prepositions and articles that did not reveal anything about common topics in a particular semester.</p>
 				<img alt="sketch of packed circles diagram" src="img/packed1.png"/>
@@ -210,7 +213,7 @@
 
 				<div class="flourish-embed flourish-hierarchy" data-src="visualisation/5697742"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-				<h3 class="highlight">Piece 5: Documentation</h3>
+				<h3 id="doc5" class="highlight">Piece 5: Documentation</h3>
 				<h5>Visualization 1: Population Pyramid</h5>
 				<p>The first visualization aimed to represent the gender representation in engineering and science faculty. I found this difficult to visualize given the absence of female faculty in certain categories. I wanted to make sure to stay away from colors that uphold the gender binary (male=blue, female=pink/red). Here are some of my experiments with building this visualization such as a tree map, connected dot chart, and simple column chart. Color testing passed.</p>
 				<img alt="prototype of treemap for gender representation in stem faculty" src="img/gender1.png"/>
