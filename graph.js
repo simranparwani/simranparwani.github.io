@@ -49,7 +49,7 @@ let data = {
 }
 let width = window.innerWidth*.6;
 let height = window.innerHeight * .8;
-let colors = ["FFF","#6B9080", "#6A5B6E", "#F46036", "#F0C62D"]
+let colors = ["FFF","#526F63", "#6A5B6E", "#D5370B", "#F0C62D"]
 let labels = ["Labels","Code", "Data Journalism", "Social Impact", "Visualization"]
 
 createChart(data);
@@ -106,9 +106,7 @@ function createChart(data){
 
 
     let circles = node.append("circle").attr("stroke", "#fff")
-        .attr("stroke-width", 1)
-        .style("opacity", 0.5)
-        
+        .attr("stroke-width", 1)        
         .attr("r", function(d) {
             if (d.main === true) {
                 return 22;
@@ -121,9 +119,15 @@ function createChart(data){
         });
         
 
-let titles = node.append("text").attr("color", "#6A5B6E")
+let titles = node.append("text")
     
-    .attr("fill", "#6A5B6E")
+    .attr("fill", function(d) {
+            if (d.group === 4){
+                return "#000000"
+            } else {
+                return "#FFFFFF"
+            }
+        })
     .attr("font-size", ".3vw")
     .attr("font-family", "Open Sans")
     .attr("text-align", "center")
