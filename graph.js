@@ -107,6 +107,7 @@ function createChart(data){
 
     let circles = node.append("circle").attr("stroke", "#fff")
         .attr("stroke-width", 1)
+        .style("opacity", 0.5)
         
         .attr("r", function(d) {
             if (d.main === true) {
@@ -120,9 +121,9 @@ function createChart(data){
         });
         
 
-let titles = node.append("text").attr("color", "white")
+let titles = node.append("text").attr("color", "#6A5B6E")
     
-    .attr("fill", "white")
+    .attr("fill", "#6A5B6E")
     .attr("font-size", ".3vw")
     .attr("font-family", "Open Sans")
     .attr("text-align", "center")
