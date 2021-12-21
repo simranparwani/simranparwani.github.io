@@ -172,7 +172,7 @@ canvas {
     height:100%;
 }
 .highlight {
-    background-color:  var(--accent-color);
+    background-color: ##D5370B;
     color: var(--white-color);
     padding:1% 2% 1% 2%;
 }
