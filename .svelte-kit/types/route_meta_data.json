@@ -1,6 +1,10 @@
 {
 	"/": [
-		"src/routes/+page.server.js"
+		"src/routes/+page.server.js",
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
 	],
-	"/about": []
+	"/about": [
+		"src/routes/+layout.js"
+	]
 }
